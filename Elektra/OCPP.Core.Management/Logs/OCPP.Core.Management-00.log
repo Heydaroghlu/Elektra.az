@@ -1,0 +1,1427 @@
+﻿info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T11:26:46.0933833+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:26:46.1501554+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:26:46.2623196+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:26:49.1064412+04:00
+      Index: Found 0 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:03.7319026+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:03.9663046+04:00
+      ChargePoint: Found 0 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:05.5212353+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:05.8203199+04:00
+      ChargePoint: Found 0 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:16.7758684+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:17.0035318+04:00
+      ChargePoint: Found 0 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:17.0035806+04:00
+      ChargePoint: Creating new charge point...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:17.4048210+04:00
+      ChargePoint: New => charge point saved: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:17.4138233+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:17.6497931+04:00
+      ChargePoint: Found 1 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:21.4172305+04:00
+      ChargeTag: Loading charge tags...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:21.6481129+04:00
+      ChargeTag: Found 0 charge tags
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:22.8025729+04:00
+      ChargeTag: Loading charge tags...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:23.0281079+04:00
+      ChargeTag: Found 0 charge tags
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:38.3040406+04:00
+      ChargeTag: Loading charge tags...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:38.5292310+04:00
+      ChargeTag: Found 0 charge tags
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:38.5292619+04:00
+      ChargeTag: Creating new charge tag...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:38.8135824+04:00
+      ChargeTag: New => charge tag saved: B4A63CDF / B4A63CDF
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:38.8196461+04:00
+      ChargeTag: Loading charge tags...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:27:39.0637009+04:00
+      ChargeTag: Found 1 charge tags
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:28:27.3429513+04:00
+      ChargeTag: Loading charge tags...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:28:27.5721298+04:00
+      ChargeTag: Found 1 charge tags
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:03.4857712+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:03.7109854+04:00
+      ChargePoint: Found 1 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:06.6274206+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:06.8790178+04:00
+      Connector: Found 1 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:20.7490664+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:21.0213849+04:00
+      Connector: Found 1 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:44.0544674+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:44.2805275+04:00
+      Connector: Found 1 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:54.3687889+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:54.4174494+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:54.9018522+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:54.9033557+04:00
+      Index: Found 1 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:59.2306018+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:29:59.4558419+04:00
+      Connector: Found 1 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:03.2633584+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:03.2681972+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:03.9499483+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:03.9507636+04:00
+      Index: Found 1 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:09.8583741+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:09.8592337+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:10.0844279+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:10.3106881+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:10.5373198+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:51.8455041+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:52.0720467+04:00
+      ChargePoint: Found 1 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:53.1936996+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:53.1987935+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:53.6535233+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:53.6549918+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:30:53.6551460+04:00
+      Index: Found 2 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:31:23.4856506+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:31:23.4905315+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:31:23.9442683+04:00
+      Index: Found 2 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:32:54.5479668+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:32:54.5527852+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:32:55.3129615+04:00
+      Index: Found 2 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:33:00.5050692+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:33:00.7294587+04:00
+      Connector: Found 2 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:33:03.0913728+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:33:03.3169501+04:00
+      Connector: Found 2 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:46:35.1016526+04:00
+      Connector: Loading connectors...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:46:38.6296210+04:00
+      Connector: Found 2 connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:48:14.8522856+04:00
+      Connector: Loading connectors...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T11:48:15.4970131+04:00
+      Connector: Error loading connectors from database
+System.InvalidOperationException: The entity type 'IdentityUserLogin<string>' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OCPP.Core.Management.Controllers.HomeController.Connector(String Id, String ConnectorId, ConnectorStatusViewModel csvm) in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Conector.cs:line 54
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:01:46.7835681+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:01:48.9117499+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:01:52.6572702+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:02:05.2364974+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:02:06.4246524+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-04T13:02:11.4290667+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:02:55.8447208+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:02:55.9646702+04:00
+      Index: Result of status web request => Length=0
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-04T13:02:56.5648664+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:02:58.9612150+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:25.4010278+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:25.4941898+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:25.9613712+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:34.8227853+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:34.8284612+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:35.3417270+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:44.6723603+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:44.7136993+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:45.1694237+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Undefined'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:03:45.1729839+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:05:16.4765820+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:05:16.4801424+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:05:16.9354534+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Unavailable'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:05:16.9355987+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:06:31.2979993+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:06:31.3021096+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:06:31.7558948+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:06:31.7564242+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:07.6657455+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:07.6702544+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:08.1251375+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:08.1255334+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:10.6492481+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:10.6520969+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:13.3412918+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:13.3417699+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:24.5161204+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:24.5184981+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:24.9704057+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:44.1467016+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:44.1534412+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:44.6058258+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Undefined'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:44.6066698+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:57.3250665+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:57.3278610+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:57.7793648+04:00
+      Index: Found online status for CP='string' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:07:57.7797772+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:10:30.2797240+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:10:34.3332573+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:10:34.7900665+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:14:21.6783967+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:14:25.7320411+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-04T13:14:26.2819723+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:14:28.6048111+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:15:44.5643955+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:15:48.6171791+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-04T13:15:49.1268855+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:15:51.3924375+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:18:02.8212403+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:18:06.8771629+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-04T13:18:07.4449119+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T13:18:09.7038994+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T14:05:25.9703936+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T14:05:30.0595979+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\OCPP.Core\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-04T14:05:30.6925419+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-04T14:05:33.1150426+04:00
+      Index: Found 3 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:18:52.8118783+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:18:57.0617174+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T15:18:57.7749423+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:00.8517709+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:30.7026512+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:31.3623661+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:31.8234022+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:40.1230450+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:42.6053652+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:19:43.1315147+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:01.9589888+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:02.4531916+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:02.9029537+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:02.9064114+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:13.2271748+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:16.3297463+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:16.7826235+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:16.7827997+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:16.7828354+04:00
+      Index: Found 16 charge points / connectors
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:20:25.4202810+04:00
+      User 'user' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:20:32.0051086+04:00
+      User 'user' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:20:33.9376303+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:20:35.7209793+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:20:36.5374030+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:38.7438537+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:39.3277980+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:39.7801089+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:39.7801870+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:20:39.7802558+04:00
+      Index: Found 16 charge points / connectors
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:21:10.1679331+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T15:21:36.1267909+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:00.3622703+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:00.8049491+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:01.2532383+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:01.2533022+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:01.2533607+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:30.5407818+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:30.9833710+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:31.4412630+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:31.4414713+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:31.4415025+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:49.6682058+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:50.1128234+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:50.5615342+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:50.5616799+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:22:50.5617758+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:23:06.5208601+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:23:06.9763495+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:23:07.4248948+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:23:07.4252726+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:23:07.4253681+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:48.3414181+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:48.9250311+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:50.4995615+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:52.6438339+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:53.0903415+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:42:53.5388726+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:06.7699933+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:09.1301008+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:09.5742464+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:09.5743991+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:20.1454702+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:20.5851952+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:21.0291242+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:21.0291994+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:31.8889119+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:35.9010641+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:36.3493011+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:51.4181934+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:51.8722961+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:52.3171099+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:52.3171830+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:43:52.3172526+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:05.4055216+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:05.8477735+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:06.2904805+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:06.2905319+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:06.2905684+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:17.7148547+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:18.1753817+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:18.6242301+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:18.6243388+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:18.6244096+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:22.3452952+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:26.3580613+04:00
+      Index: Error in status web request => The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 4 seconds elapsing.
+ ---> System.TimeoutException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at OCPP.Core.Management.Controllers.HomeController.Index() in C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Management\Controllers\HomeController.Index.cs:line 90
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:26.8050805+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:30.6168770+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:31.0707128+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:31.5203003+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:31.5203776+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:31.5204524+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:58.4124291+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:58.8800896+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:59.3276061+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:59.3276772+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:44:59.3277526+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:06.1018809+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:06.5525515+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:07.0005840+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:07.0006566+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:07.0007227+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:17.6930650+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:18.1518019+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:18.5960352+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:18.5961031+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:18.5961778+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:37.2284967+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:37.6868722+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:38.1451945+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:38.1452723+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:38.1453541+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:49.2639943+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:49.7211296+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:50.1643996+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:50.1661077+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:45:50.1662137+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:24.8155430+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:25.2575401+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:25.7019169+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Occupied'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:25.7024787+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:25.7025486+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:37.5463851+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:38.0000030+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:38.4460146+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:38.4460781+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:38.4461165+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:59.4556281+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:46:59.9118625+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:47:00.3581596+04:00
+      Index: Found online status for CP='Test1234' / Connector='1' / Status='Available'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:47:00.3581885+04:00
+      Index: Found online status for CP='Test1234' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T15:47:00.3582177+04:00
+      Index: Found 16 charge points / connectors
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:44:57.7416713+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:45:02.2039789+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:47:06.0343961+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:06.0915603+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:06.0923496+04:00
+      Transactions: Loading charge points...
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T16:47:06.7114420+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:08.7864589+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:09.0432509+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:09.2968913+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:22.9952870+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:23.6765491+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:24.2248893+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:48.6217846+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:48.6226515+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:48.9158832+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:49.1374969+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:49.3549005+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:55.2832574+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:55.2838749+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:55.5074198+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:55.7251577+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:47:55.9415944+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:01.1480835+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:01.8752911+04:00
+      Index: Result of status web request => Length=0
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T16:54:02.5270969+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:04.8999073+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:38.4425289+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:38.4433109+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:38.6778246+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:38.9504943+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:39.1863321+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:46.2605680+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:46.5319075+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:54:46.5319979+04:00
+      ChargePoint: Current charge point: string31 / string69
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:54:59.4433994+04:00
+      User 'admin' logged in
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:55:01.2852968+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:03.6188139+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:03.8415705+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:03.8416039+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:05.1806260+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:05.4031127+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:05.4031620+04:00
+      ChargePoint: Current charge point: string31 / string69
+info: OCPP.Core.Management.Controllers.AccountController[0] @ 2024-08-06T16:55:13.4115823+04:00
+      User 'admin' logged in
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:16.6767906+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:17.7418457+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:17.7418907+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:59.9218157+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:55:59.9428264+04:00
+      Transactions: Loading charge points...
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T16:56:00.5328517+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:02.3602341+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:02.6224105+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:02.8526567+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:08.9465636+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:09.1765322+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:56:09.1766496+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:56:12.8897567+04:00
+      UnlockConnector: Request to unlock chargepoint 'string31'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:56:18.8399418+04:00
+      UnlockConnector: Request to unlock chargepoint 'string31'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:56:30.4605334+04:00
+      UnlockConnector: Request to unlock chargepoint 'string'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:57:09.1972511+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:57:27.0799043+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:59:32.7642836+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:59:32.9800117+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T16:59:32.9800669+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T16:59:49.8141039+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:21.1246627+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:21.3418721+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:21.3420260+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:00:28.0858962+04:00
+      UnlockConnector: Request to unlock chargepoint 'string31'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:00:30.5349007+04:00
+      UnlockConnector: Request to unlock chargepoint 'string31'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:54.0626929+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:54.2817804+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:00:54.2818267+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:00:58.0031839+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:34.9949625+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:35.2137086+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:35.2137601+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:37.8738213+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:38.4017596+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:01:38.9101483+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:02:01.7773454+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:02:02.2213063+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:02:02.6545885+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:03:06.0158653+04:00
+      UnlockConnector: Request to unlock chargepoint 'string'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:20.9652662+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:21.4557487+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:21.8875573+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:45.8819205+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:46.1024149+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:46.1024464+04:00
+      ChargePoint: Current charge point: string31 / string69
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:50.1083306+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:51.4993746+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:03:51.4994283+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:09.7314543+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:10.6808719+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:21.2810091+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:22.1735232+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:35.4295673+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:04:36.3133803+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:05:52.6145970+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:05:53.6616520+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:29.0136516+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:29.7968947+04:00
+      Index: Result of status web request => Length=1
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T17:06:30.6322981+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:33.2152033+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:37.8723307+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:37.8738595+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:38.1166838+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:38.3937261+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:38.6307831+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:45.6205861+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:45.9208709+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T17:06:45.9210362+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:07:01.0532689+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T17:32:30.3571820+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:48:52.2283232+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:48:53.1173465+04:00
+      Index: Result of status web request => Length=0
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T22:48:53.8760800+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:48:56.6943245+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:09.8696990+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:09.8705706+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:10.1143377+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:10.3973391+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:10.6405918+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:19.8757795+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:20.1569455+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T22:49:20.1569948+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:49:25.7996583+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:50:19.8409515+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:50:20.8180312+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:50:58.9461307+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:50:59.8693039+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:51:33.1453259+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T22:51:34.0878595+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:14:11.4088759+04:00
+      ChargePoint: Loading charge points...
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T23:14:12.1943567+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:14:14.1082229+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:14:14.1084681+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:14:56.9702628+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:14:58.9662281+04:00
+      Index: Result of status web request => Length=1
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T23:15:00.1590805+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:03.1965598+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:27.6195393+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:27.6228109+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:27.8776274+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:28.1723568+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:28.4290011+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:32.5561335+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:34.4451379+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:15:34.4452635+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:15:39.2139800+04:00
+      Reset: Request to restart chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:17:52.7706934+04:00
+      Reset: Result of API request is '{"status": "Accepted"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:18:03.8764090+04:00
+      Reset: Request to restart chargepoint 'Test1234'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:18:35.5105365+04:00
+      Reset: Request to restart chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:18:38.8265820+04:00
+      Reset: Result of API request is '{"status": "Accepted"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:19:15.7878678+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:19:22.9777022+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:20:43.8025037+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:20:44.0282063+04:00
+      ChargePoint: Found 13 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:20:44.0282846+04:00
+      ChargePoint: Current charge point: Test1234 / Test1234
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:20:50.9894360+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:20:54.1386768+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:21.9333089+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:23.8425303+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:21:43.8531190+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:21:44.4108233+04:00
+      Index: Result of status web request => Length=1
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T23:21:44.9723178+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:46.6284757+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:21:47.1910851+04:00
+      Index: Found 16 charge points / connectors
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:48.4893235+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:50.1797397+04:00
+      UnlockConnector: Request to unlock chargepoint 'Test1234'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-06T23:21:51.1607948+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:24:35.8589959+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:24:36.3697198+04:00
+      Index: Result of status web request => httpStatus=ServiceUnavailable
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:24:36.3719054+04:00
+      Index: Result of status web request => Length=(null)
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T23:24:36.9768249+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:24:39.2796085+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:27:07.5658975+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:27:08.0508770+04:00
+      Index: Result of status web request => httpStatus=ServiceUnavailable
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-06T23:27:08.0547611+04:00
+      Index: Result of status web request => Length=(null)
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-06T23:27:08.6285527+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:08.4787284+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:09.3669540+04:00
+      Index: Result of status web request => httpStatus=ServiceUnavailable
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:09.3718163+04:00
+      Index: Result of status web request => Length=(null)
+warn: Microsoft.EntityFrameworkCore.Model.Validation[Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning] @ 2024-08-07T15:16:10.4802115+04:00
+      No store type was specified for the decimal property 'Balance' on entity type 'AppUser'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:13.6792484+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:20.7382085+04:00
+      Index: Loading charge points with latest transactions...
+fail: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:21.1920199+04:00
+      Index: Result of status web request => httpStatus=ServiceUnavailable
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:21.1924603+04:00
+      Index: Result of status web request => Length=(null)
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:21.6562552+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:38.1701429+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:39.5048975+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:40.0160234+04:00
+      Index: Found 16 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:57.3407791+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:57.3420367+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:57.5623602+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:57.8641722+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:16:58.1295350+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:47.9098062+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:47.9105093+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:48.1423178+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:48.3836944+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:48.6023730+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:59.1100759+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:59.1130111+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:59.3602713+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:59.5871465+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:17:59.8783748+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:18:04.9620205+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:18:04.9629378+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:18:05.1845685+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:18:05.4034653+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T15:18:05.6209492+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:29:51.5102544+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:29:51.5115623+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:29:52.9005291+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:29:53.1265105+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:29:53.3854468+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:02.9837196+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:04.1165643+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:04.5747337+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:17.8033045+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:18.5035859+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:18.9694181+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:24.0668548+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:24.8060527+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:25.2861712+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:46.0755348+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:46.8025176+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:30:47.2762855+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:32:10.2295926+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:32:10.9067624+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:32:11.3608148+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:44.0156260+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:44.6863656+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:45.1430608+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:46.4533727+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:46.4541316+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:46.7343477+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:46.9645095+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:47.1905802+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:53.7976080+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:54.0229342+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:34:54.0230252+04:00
+      ChargePoint: Current charge point: salam / salam
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T16:34:59.7721858+04:00
+      Reset: Request to restart chargepoint 'salam'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:48:59.3615884+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:00.2018081+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:01.7868513+04:00
+      Index: Found online status for CP='Mr12' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:01.8048372+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:44.2458552+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:44.2462716+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:44.4727180+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:44.7482405+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:44.9682095+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:54.3271832+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:54.5548332+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:49:54.5548768+04:00
+      ChargePoint: Current charge point: Mr12 / Mr12
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T16:49:58.5581656+04:00
+      Reset: Request to restart chargepoint 'Mr12'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T16:50:00.6055325+04:00
+      Reset: Result of API request is '{"status": "Accepted"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:50:14.3979552+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:50:15.2138852+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:50:15.6602165+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:51:03.3487973+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:51:04.0401315+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:51:04.4911788+04:00
+      Index: Found online status for CP='Mr12' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:51:04.4919248+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:10.9898849+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:11.6979396+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:12.1644322+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:28.1100908+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:28.8122127+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:29.2556321+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:47.7590312+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:48.4404117+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:48.9048321+04:00
+      Index: Found online status for CP='Mr12' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:52:48.9050529+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:53:58.4270331+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:53:59.1227231+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:53:59.5650080+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:07.6119907+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:08.3862250+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:08.8280263+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:11.1819804+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:11.1830778+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:14.2812614+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:14.5003471+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T16:54:14.7548491+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:25.0141102+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:25.6770347+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:30.2668093+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:42.2232712+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:42.9014948+04:00
+      Index: Result of status web request => Length=1
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:00:43.3507613+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:12.7427872+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:13.4433597+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:13.9125126+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:24.1403242+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:24.8393295+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:25.2855839+04:00
+      Index: Found online status for CP='Mr12' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:01:25.2866191+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:01.4499907+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:01.4506982+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:01.6702145+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:01.8864477+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:02.1043770+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:10.4125755+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:10.6303411+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:10.6304099+04:00
+      ChargePoint: Current charge point: Mr12 / Mr12
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:02:14.2735985+04:00
+      UnlockConnector: Request to unlock chargepoint 'Mr12'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:02:17.9806203+04:00
+      UnlockConnector: Result of API request is '{"status": "Unlocked"}'
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:02:30.0738474+04:00
+      Reset: Request to restart chargepoint 'Mr12'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:02:31.2333147+04:00
+      Reset: Result of API request is '{"status": "Accepted"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:39.3933831+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:39.6105207+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:02:39.6105690+04:00
+      ChargePoint: Current charge point: Mr12 / Mr12
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:02:48.5070106+04:00
+      UnlockConnector: Request to unlock chargepoint 'Mr12'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:38.1662721+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:38.8974664+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:39.3778027+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:42.8270680+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:43.5213905+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:03:43.9670888+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:50.4214936+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:51.1063250+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:51.5450683+04:00
+      Index: Found online status for CP='Mr12' / Connector='1' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:51.5453604+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:55.3465967+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:55.3470058+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:55.5640550+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:55.7804421+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:04:55.9973133+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:05:07.8156074+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:05:10.8739993+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:05:10.8740815+04:00
+      ChargePoint: Current charge point: Mr12 / Mr12
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:05:18.6989154+04:00
+      UnlockConnector: Request to unlock chargepoint 'Mr12'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:05:20.0745026+04:00
+      UnlockConnector: Result of API request is '{"status": "NotSupported"}'
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:27.6626172+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:28.3674609+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:28.5501842+04:00
+      Index: Loading charge points with latest transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:28.8088830+04:00
+      Index: Found online status for CP='Mr12' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:28.8090159+04:00
+      Index: Found 17 charge points / connectors
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:29.2252052+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:29.6699392+04:00
+      Index: Found online status for CP='Mr12' / Connector='2' / Status='Available'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:29.6700863+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:50.7968828+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:52.2472165+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:07:52.7204702+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:08:03.6189118+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:08:04.3107229+04:00
+      Index: Result of status web request => Length=0
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:08:04.7586606+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:28.8070743+04:00
+      Index: Loading charge points with latest transactions...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:29.5329956+04:00
+      Index: Result of status web request => Length=1
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:31.1278907+04:00
+      Index: Found online status for CP='Mr12' / Connector='1' / Status='Occupied'
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:31.1281311+04:00
+      Index: Found 17 charge points / connectors
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:36.0748478+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:36.0763217+04:00
+      Transactions: Loading charge points...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:36.3010622+04:00
+      Transactions: Loading charge points connectors...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:36.5263947+04:00
+      Transactions: Loading charge tags...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:36.7539005+04:00
+      Transactions: Loading charge point transactions...
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:42.8407308+04:00
+      ChargePoint: Loading charge points...
+info: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:43.0935916+04:00
+      ChargePoint: Found 14 charge points
+trce: OCPP.Core.Management.Controllers.HomeController[0] @ 2024-08-07T17:17:43.0936677+04:00
+      ChargePoint: Current charge point: Mr12 / Mr12
+trce: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:17:46.3197666+04:00
+      UnlockConnector: Request to unlock chargepoint 'Mr12'
+info: OCPP.Core.Management.Controllers.ApiController[0] @ 2024-08-07T17:17:48.4587974+04:00
+      UnlockConnector: Result of API request is '{"status": "NotSupported"}'

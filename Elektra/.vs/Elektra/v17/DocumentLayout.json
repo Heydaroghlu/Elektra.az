@@ -1,0 +1,1484 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\chargepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\chargepointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240818133212_urlumguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240818133212_urlumguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\userdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\reservhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\reservhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\ocppmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\ocppmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\ocppmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\ocppmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\chargelocationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\chargelocationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\reversal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\reversal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\purchasewithsavedcardrecurring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\purchasewithsavedcardrecurring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\transactionstatusbyorderid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\transactionstatusbyorderid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\purchasewithsavedcard3ds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\purchasewithsavedcard3ds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\cardregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\cardregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\cpointdtos\\chargepointpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\cpointdtos\\chargepointpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\wishlistdtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\wishlistdtos\\wishlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.metervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.metervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.infrastructure\\services\\hangfireservice\\hfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|solutionrelative:ocpp.core.infrastructure\\services\\hangfireservice\\hfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\messages_ocpp16\\remotestarttransactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\messages_ocpp16\\remotestarttransactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\messages_ocpp16\\remotestoptransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\messages_ocpp16\\remotestoptransactionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.heartbeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.heartbeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.notifyevchargingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.notifyevchargingschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.metervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.metervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.infrastructure\\services\\sms\\smileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|solutionrelative:ocpp.core.infrastructure\\services\\sms\\smileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.starttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.starttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.statusnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.statusnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.datatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.datatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.heartbeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.heartbeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\ocpp.core.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\ocpp.core.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\userdtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\userdtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\statusdtos\\connectorstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\statusdtos\\connectorstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.stoptransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.stoptransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\ocpp.core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\ocpp.core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.persistence\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|solutionrelative:ocpp.core.persistence\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\unitofworks\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\dbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\dbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\ocpp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\ocpp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|solutionrelative:ocpp.core.persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240810125416_resertimeaddedconnectorstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240810125416_resertimeaddedconnectorstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\dtos\\paymentdtos\\paymentlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\dtos\\paymentdtos\\paymentlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\messages_ocpp20\\transactioneventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\messages_ocpp20\\transactioneventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\apicontroller.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\apicontroller.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\apicontroller.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\apicontroller.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.transactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.transactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.unlockconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.chargepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.chargepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.conector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.conector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.chargetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.chargetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\controllers\\homecontroller.chargereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\controllers\\homecontroller.chargereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.management\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D1B695-4C8E-496E-A0BC-AE9E1FDB2788}|OCPP.Core.Management\\OCPP.Core.Management.csproj|solutionrelative:ocpp.core.management\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\schema20\\bootnotificationrequest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\schema20\\bootnotificationrequest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\schema20\\authorizerequest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\schema20\\authorizerequest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\messages_ocpp20\\authorizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\messages_ocpp20\\authorizerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\schema20\\unlockconnectorresponse.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\schema20\\unlockconnectorresponse.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\messages_ocpp20\\unlockconnectorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\messages_ocpp20\\unlockconnectorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.server\\controllerocpp20.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BABF027C-B603-4B0C-9637-BBFB5051E0E1}|OCPP.Core.Server\\OCPP.Core.Server.csproj|solutionrelative:ocpp.core.server\\controllerocpp20.reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0BC504-A9BB-41F7-90B3-2C6EE2FD91A2}|OCPP.API\\OCPP.API.csproj|solutionrelative:ocpp.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\ocpp.core.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\ocpp.core.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Isa\\Desktop\\almabaku\\OCPP.Core\\OCPP.Core.Database\\Migrations\\20240804072200_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.infrastructure\\ocpp.core.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|solutionrelative:ocpp.core.infrastructure\\ocpp.core.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C65867-F289-4908-AB31-21B6804CE41D}|OCPP.Core.Persistence\\OCPP.Core.Persistence.csproj|solutionrelative:ocpp.core.persistence\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B067447-3CC0-4F04-BCD3-E65712103EC3}|OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj|solutionrelative:ocpp.core.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240805202350_wishlistandusersedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240805202350_wishlistandusersedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240804102654_locationsaddedtodb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240804102654_locationsaddedtodb2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240804100706_locationsaddedtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240804100706_locationsaddedtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240804072539_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240804072539_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7490E673-4172-432F-B04D-25B2BD9272D0}|Application\\OCPP.Core.Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240810122800_connectorlogsaddedconnectorid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240810122800_connectorlogsaddedconnectorid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240810104149_connectoridadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240810104149_connectoridadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240814103131_isdeletedaddedchargepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240814103131_isdeletedaddedchargepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240814192917_pricescolumnsaddchagre2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240814192917_pricescolumnsaddchagre2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|c:\\users\\isa\\desktop\\almabaku\\elektra.az2\\elektra\\ocpp.core.database\\migrations\\20240815193827_dcmkslsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9369B7-EC94-4EA0-87E7-B2EE8A2C1792}|OCPP.Core.Database\\OCPP.Core.Database.csproj|solutionrelative:ocpp.core.database\\migrations\\20240815193827_dcmkslsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240818133212_URLUMGUSER.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240818133212_URLUMGUSER.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240818133212_URLUMGUSER.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240818133212_URLUMGUSER.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240818133212_URLUMGUSER.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T13:32:12.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\ReservHistory.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\ReservHistory.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\ReservHistory.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\ReservHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T12:51:03.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OCPPMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPPMessage.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\OCPPMessage.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPPMessage.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\OCPPMessage.cs",
+              "ViewState": "AQIAABoAAACgy8zMzMwnwAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T12:45:00.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwDEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:16:32.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChargePointsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\ChargePointsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\ChargePointsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\ChargePointsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\ChargePointsController.cs",
+              "ViewState": "AQIAANUAAAAAYmZmZmYnwOsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:15:09.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\UserDTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserDTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\UserDTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserDTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:28:53.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChargeLocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\ChargeLocationsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\ChargeLocationsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\ChargeLocationsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\ChargeLocationsController.cs",
+              "ViewState": "AQIAACkAAAAAwMzMzMz0vy4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:59:45.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reversal.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\Reversal.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\Reversal.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\Reversal.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\Reversal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:44:18.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OCPPMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPPMiddleware.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\OCPPMiddleware.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPPMiddleware.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\OCPPMiddleware.cs",
+              "ViewState": "AQIAABUAAACAx8zMzMwQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:25:29.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PurchaseWithSavedCardRecurring.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCardRecurring.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCardRecurring.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCardRecurring.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCardRecurring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:44:36.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionStatusByOrderId.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\TransactionStatusByOrderId.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\TransactionStatusByOrderId.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\TransactionStatusByOrderId.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\TransactionStatusByOrderId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:44:43.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PurchaseWithSavedCard3DS.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCard3DS.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCard3DS.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCard3DS.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\PurchaseWithSavedCard3DS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:37:48.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CardRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\CardRegistration.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\CardRegistration.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\CardRegistration.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\CardRegistration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:21:37.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\CheckoutDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\CheckoutDTO.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:20:17.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20240815193827_Dcmkslsk.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240815193827_Dcmkslsk.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240815193827_Dcmkslsk.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240815193827_Dcmkslsk.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240815193827_Dcmkslsk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:38:27.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WishListsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\WishListsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\WishListsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\WishListsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\WishListsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:54:23.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChargepointPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\CPointDTOs\\ChargepointPostDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CPointDTOs\\ChargepointPostDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\CPointDTOs\\ChargepointPostDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\CPointDTOs\\ChargepointPostDTO.cs",
+              "ViewState": "AQIAAA4AAACA/v////8kwBUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:26:34.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WishListDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\WishListDTOs\\WishListDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\WishListDTOs\\WishListDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\WishListDTOs\\WishListDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\WishListDTOs\\WishListDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:54:48.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ControllerOCPP16.MeterValues.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.MeterValues.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.MeterValues.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.MeterValues.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.MeterValues.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAmwGwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:20:55.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20240814192917_PricesColumnsAddchagre2.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814192917_PricesColumnsAddchagre2.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240814192917_PricesColumnsAddchagre2.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814192917_PricesColumnsAddchagre2.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240814192917_PricesColumnsAddchagre2.cs",
+              "ViewState": "AQIAAA0AAAAAMjMzMzMqwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:29:18.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240814192550_PricesColumnsAddchagre2.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240814192550_PricesColumnsAddchagre2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:25:50.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240814191516_PricesAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240814191516_PricesAdded.cs",
+              "ViewState": "AQIAACAAAAAANDMzMzMZwCkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:15:16.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "Application\\Profiles\\MapperProfile.cs",
+              "ViewState": "AQIAABcAAABgzMzMzMwnwCYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T19:12:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HFService.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Services\\HangFireService\\HFService.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Infrastructure\\Services\\HangFireService\\HFService.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Services\\HangFireService\\HFService.cs",
+              "RelativeToolTip": "OCPP.Core.Infrastructure\\Services\\HangFireService\\HFService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:43:23.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\appsettings.json",
+              "RelativeDocumentMoniker": "OCPP.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\appsettings.json",
+              "RelativeToolTip": "OCPP.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T12:01:47.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Program.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Program.cs",
+              "RelativeToolTip": "OCPP.API\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAgAAAMAgwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:00:58.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RemoteStopTransactionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP16\\RemoteStopTransactionRequest.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Messages_OCPP16\\RemoteStopTransactionRequest.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP16\\RemoteStopTransactionRequest.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Messages_OCPP16\\RemoteStopTransactionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:20:03.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RemoteStartTransactionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP16\\RemoteStartTransactionResponse.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Messages_OCPP16\\RemoteStartTransactionResponse.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP16\\RemoteStartTransactionResponse.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Messages_OCPP16\\RemoteStartTransactionResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:20:09.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ControllerOCPP20.Heartbeat.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.Heartbeat.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.Heartbeat.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.Heartbeat.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.Heartbeat.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:01:50.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ControllerOCPP20.NotifyEVChargingSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.NotifyEVChargingSchedule.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.NotifyEVChargingSchedule.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.NotifyEVChargingSchedule.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.NotifyEVChargingSchedule.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwCsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T11:01:19.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ControllerOCPP20.MeterValues.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.MeterValues.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.MeterValues.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.MeterValues.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.MeterValues.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:25:04.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SmileService.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Services\\SMS\\SmileService.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Infrastructure\\Services\\SMS\\SmileService.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Services\\SMS\\SmileService.cs",
+              "RelativeToolTip": "OCPP.Core.Infrastructure\\Services\\SMS\\SmileService.cs",
+              "ViewState": "AQIAAAcAAACAY2ZmZmYkwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:32:43.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20240814103131_IsdeletedAddedChargePoint.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814103131_IsdeletedAddedChargePoint.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240814103131_IsdeletedAddedChargePoint.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240814103131_IsdeletedAddedChargePoint.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240814103131_IsdeletedAddedChargePoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T10:31:32.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ControllerOCPP16.UnlockConnector.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.UnlockConnector.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.UnlockConnector.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.UnlockConnector.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.UnlockConnector.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:23:51.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ControllerOCPP16.StartTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.StartTransaction.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.StartTransaction.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.StartTransaction.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.StartTransaction.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:24:19.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ControllerOCPP16.Reset.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.Reset.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.Reset.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.Reset.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.Reset.cs",
+              "ViewState": "AQIAABsAAAAAGjMzMzP7vwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:53:19.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ControllerOCPP20.DataTransfer.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.DataTransfer.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.DataTransfer.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.DataTransfer.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.DataTransfer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIBZwCAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T12:14:04.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ControllerOCPP20.StatusNotification.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.StatusNotification.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.StatusNotification.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.StatusNotification.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.StatusNotification.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAgwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T08:48:52.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ControllerOCPP16.Heartbeat.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.Heartbeat.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.Heartbeat.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.Heartbeat.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.Heartbeat.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:26:28.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\UserDTOs\\TransactionDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserDTOs\\TransactionDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\UserDTOs\\TransactionDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserDTOs\\TransactionDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:22:27.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OCPP.Core.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPP.Core.Server.csproj",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\OCPP.Core.Server.csproj",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\OCPP.Core.Server.csproj",
+              "RelativeToolTip": "OCPP.Core.Server\\OCPP.Core.Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T19:28:13.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ConnectorStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\StatusDTOs\\ConnectorStatusDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\StatusDTOs\\ConnectorStatusDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\StatusDTOs\\ConnectorStatusDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\StatusDTOs\\ConnectorStatusDTO.cs",
+              "ViewState": "AQIAAAkAAABAZWZmZmYhwBUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:18:46.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OCPP.Core.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\OCPP.Core.Application.csproj",
+              "RelativeDocumentMoniker": "Application\\OCPP.Core.Application.csproj",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\OCPP.Core.Application.csproj",
+              "RelativeToolTip": "Application\\OCPP.Core.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-04T07:42:33.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ControllerOCPP16.StopTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.StopTransaction.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.StopTransaction.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.StopTransaction.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.StopTransaction.cs",
+              "ViewState": "AQIAAH8AAAAAFQAAAEAkwIkAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T20:58:31.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAnwBIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:00:59.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\UnitOfWorks\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\UnitOfWorks\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\UnitOfWorks\\IUnitOfWork.cs",
+              "ViewState": "AQIAABEAAADAMzMzMzMrwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T15:09:02.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Services\\Payment\\PaymentService.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Persistence\\Services\\Payment\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Services\\Payment\\PaymentService.cs",
+              "RelativeToolTip": "OCPP.Core.Persistence\\Services\\Payment\\PaymentService.cs",
+              "ViewState": "AQIAAC4AAACAODMzMzMpwEEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:36:30.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OCPP.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\OCPP.API.csproj",
+              "RelativeDocumentMoniker": "OCPP.API\\OCPP.API.csproj",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\OCPP.API.csproj",
+              "RelativeToolTip": "OCPP.API\\OCPP.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-05T21:54:41.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ControllerOCPP16.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP16.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP16.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP16.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwFAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:02:31.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DbContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\DbContextExtensions.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\DbContextExtensions.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\DbContextExtensions.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\DbContextExtensions.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:11:16.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Persistence\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Repositories\\Repository.cs",
+              "RelativeToolTip": "OCPP.Core.Persistence\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAIAAACgMjMzMzMrwAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:13:42.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Payment.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Payment.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Payment.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:09:11.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240810125416_ResertimeAddedConnectorStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810125416_ResertimeAddedConnectorStatus.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240810125416_ResertimeAddedConnectorStatus.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810125416_ResertimeAddedConnectorStatus.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240810125416_ResertimeAddedConnectorStatus.cs",
+              "ViewState": "AQIAAAEAAAAgmZmZmZkuwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:54:17.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240810122800_ConnectorLogsAddedConnectorId.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810122800_ConnectorLogsAddedConnectorId.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240810122800_ConnectorLogsAddedConnectorId.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810122800_ConnectorLogsAddedConnectorId.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240810122800_ConnectorLogsAddedConnectorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:28:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20240810104149_ConnectorIdadded.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810104149_ConnectorIdadded.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240810104149_ConnectorIdadded.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240810104149_ConnectorIdadded.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240810104149_ConnectorIdadded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:41:50.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\appsettings.json",
+              "RelativeToolTip": "OCPP.Core.Server\\appsettings.json",
+              "ViewState": "AQIAABsAAADAMDMzMzMbwCYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T00:02:38.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PaymentLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PaymentLoginDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PaymentDTOs\\PaymentLoginDTO.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\DTOs\\PaymentDTOs\\PaymentLoginDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\PaymentDTOs\\PaymentLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:15:03.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TransactionEventRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\TransactionEventRequest.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Messages_OCPP20\\TransactionEventRequest.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\TransactionEventRequest.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Messages_OCPP20\\TransactionEventRequest.cs",
+              "ViewState": "AQIAABYBAAAAMTMzM5M9wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:22:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\appsettings.json",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\appsettings.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\appsettings.json",
+              "RelativeToolTip": "OCPP.Core.Management\\appsettings.json",
+              "ViewState": "AQIAABkAAADi//////9gwCQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T07:26:30.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ControllerOCPP20.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.cs",
+              "ViewState": "AQIAAEYAAAAAKDMzMzMXwEUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:56:33.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Program.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Program.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:07:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ApiController.UnlockConnector.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\ApiController.UnlockConnector.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\ApiController.UnlockConnector.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\ApiController.UnlockConnector.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\ApiController.UnlockConnector.cs",
+              "ViewState": "AQIAAB8AAACAMzMzMzMlwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:47:42.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ApiController.Reset.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\ApiController.Reset.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\ApiController.Reset.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\ApiController.Reset.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\ApiController.Reset.cs",
+              "ViewState": "AQIAAE8AAAAAgJmZmZkIwFwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:11:53.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ControllerOCPP20.TransactionEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.TransactionEvent.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.TransactionEvent.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.TransactionEvent.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.TransactionEvent.cs",
+              "ViewState": "AQIAABsAAABAzczMzMwnwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:33:52.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HomeController.Conector.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Conector.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.Conector.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Conector.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.Conector.cs",
+              "ViewState": "AQIAACEAAAAALDMzMzMLwCwAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:46:21.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ControllerOCPP20.UnlockConnector.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.UnlockConnector.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.UnlockConnector.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.UnlockConnector.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.UnlockConnector.cs",
+              "ViewState": "AQIAABwAAADAZWZmZmYUwC4AAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:58:57.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HomeController.ChargePoint.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargePoint.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.ChargePoint.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargePoint.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.ChargePoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:45:41.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "HomeController.Index.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Index.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.Index.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Index.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.Index.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAnwCwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T08:46:04.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Startup.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Startup.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Startup.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Startup.cs",
+              "ViewState": "AQIAAFUAAADA/f////8mwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:20:23.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "HomeController.ChargeTag.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargeTag.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.ChargeTag.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargeTag.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.ChargeTag.cs",
+              "ViewState": "AQIAAAwAAAAgMzMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:48:00.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "HomeController.Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Transactions.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.Transactions.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.Transactions.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.Transactions.cs",
+              "ViewState": "AQIAAB4AAADAZWZmZmYkwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:46:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "HomeController.ChargeReport.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargeReport.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\HomeController.ChargeReport.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\HomeController.ChargeReport.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\HomeController.ChargeReport.cs",
+              "ViewState": "AQIAAIcAAABAMzMzMzMgwIgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:45:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEAAAABA1czMzMwlwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T09:02:16.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "BootNotificationRequest.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\BootNotificationRequest.json",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Schema20\\BootNotificationRequest.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\BootNotificationRequest.json",
+              "RelativeToolTip": "OCPP.Core.Server\\Schema20\\BootNotificationRequest.json",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwv3EAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T11:57:29.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "AuthorizeRequest.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\AuthorizeRequest.json",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Schema20\\AuthorizeRequest.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\AuthorizeRequest.json",
+              "RelativeToolTip": "OCPP.Core.Server\\Schema20\\AuthorizeRequest.json",
+              "ViewState": "AQIAAJAAAAAAAAAAAADwv6oAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T11:52:41.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AuthorizeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\AuthorizeRequest.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Messages_OCPP20\\AuthorizeRequest.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\AuthorizeRequest.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Messages_OCPP20\\AuthorizeRequest.cs",
+              "ViewState": "AQIAAFMAAAAA0szMzMw6wDcAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:52:23.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Startup.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Management\\Startup.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Management\\Startup.cs",
+              "RelativeToolTip": "OCPP.Core.Management\\Startup.cs",
+              "ViewState": "AQIAADYAAADglJmZmZkmwEUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:55:59.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UnlockConnectorResponse.json",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\UnlockConnectorResponse.json",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Schema20\\UnlockConnectorResponse.json",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Schema20\\UnlockConnectorResponse.json",
+              "RelativeToolTip": "OCPP.Core.Server\\Schema20\\UnlockConnectorResponse.json",
+              "ViewState": "AQIAAB8AAAAAMTMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T11:16:05.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UnlockConnectorRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\UnlockConnectorRequest.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\Messages_OCPP20\\UnlockConnectorRequest.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\Messages_OCPP20\\UnlockConnectorRequest.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\Messages_OCPP20\\UnlockConnectorRequest.cs",
+              "ViewState": "AQIAABkAAACgzMzMzMwnwCQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:15:35.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ControllerOCPP20.Reset.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.Reset.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Server\\ControllerOCPP20.Reset.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Server\\ControllerOCPP20.Reset.cs",
+              "RelativeToolTip": "OCPP.Core.Server\\ControllerOCPP20.Reset.cs",
+              "ViewState": "AQIAAB0AAAAAGDMzMzP7vyEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:36:39.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "OCPP.API\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.API\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "OCPP.API\\Controllers\\SettingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:59:45.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20240805202350_WishListAndUsersEdit.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240805202350_WishListAndUsersEdit.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240805202350_WishListAndUsersEdit.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240805202350_WishListAndUsersEdit.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240805202350_WishListAndUsersEdit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:23:50.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20240804102654_LocationsAddedToDb2.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804102654_LocationsAddedToDb2.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240804102654_LocationsAddedToDb2.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804102654_LocationsAddedToDb2.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240804102654_LocationsAddedToDb2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T10:26:54.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20240804100706_LocationsAddedToDb.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804100706_LocationsAddedToDb.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240804100706_LocationsAddedToDb.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804100706_LocationsAddedToDb.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240804100706_LocationsAddedToDb.cs",
+              "ViewState": "AQIAACcAAAAAGDMzMzPzvxEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T10:07:06.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "OCPP.Core.Database.csproj",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\OCPP.Core.Database.csproj",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\OCPP.Core.Database.csproj",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\OCPP.Core.Database.csproj",
+              "RelativeToolTip": "OCPP.Core.Database\\OCPP.Core.Database.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-04T07:46:02.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20240804072539_Created.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804072539_Created.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Database\\Migrations\\20240804072539_Created.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Database\\Migrations\\20240804072539_Created.cs",
+              "RelativeToolTip": "OCPP.Core.Database\\Migrations\\20240804072539_Created.cs",
+              "ViewState": "AQIAAHcAAAAAbmZmZmYtwIwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:25:40.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20240804072200_Created.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\OCPP.Core\\OCPP.Core.Database\\Migrations\\20240804072200_Created.cs",
+              "RelativeDocumentMoniker": "..\\..\\OCPP.Core\\OCPP.Core.Database\\Migrations\\20240804072200_Created.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\OCPP.Core\\OCPP.Core.Database\\Migrations\\20240804072200_Created.cs",
+              "RelativeToolTip": "..\\..\\OCPP.Core\\OCPP.Core.Database\\Migrations\\20240804072200_Created.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:22:00.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "OCPP.Core.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj",
+              "RelativeToolTip": "OCPP.Core.Infrastructure\\OCPP.Core.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-04T07:17:42.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Class1.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Persistence\\Class1.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Persistence\\Class1.cs",
+              "RelativeToolTip": "OCPP.Core.Persistence\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:12:19.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "OCPP.Core.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\OCPP.Core.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "OCPP.Core.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:11:48.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Isa\\Desktop\\almabaku\\Elektra.az2\\Elektra\\Application\\Class1.cs",
+              "RelativeToolTip": "Application\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T07:10:36.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

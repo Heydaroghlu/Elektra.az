@@ -1,0 +1,15 @@
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\bin\Debug\net8.0\OCPP.Core.Database.deps.json
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\bin\Debug\net8.0\OCPP.Core.Database.runtimeconfig.json
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\bin\Debug\net8.0\OCPP.Core.Database.dll
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\bin\Debug\net8.0\OCPP.Core.Database.pdb
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.csproj.AssemblyReference.cache
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.AssemblyInfo.cs
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.sourcelink.json
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.dll
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\refint\OCPP.Core.Database.dll
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.pdb
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\OCPP.Core.Database.genruntimeconfig.cache
+C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Database\obj\Debug\net8.0\ref\OCPP.Core.Database.dll

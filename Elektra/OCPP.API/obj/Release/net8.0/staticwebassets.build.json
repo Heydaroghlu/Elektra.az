@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+f4Ut+S1xGVAp+uH45QeftB7IgsgESpb7OVzyh+vElE=",
+  "Source": "OCPP.API",
+  "BasePath": "_content/OCPP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

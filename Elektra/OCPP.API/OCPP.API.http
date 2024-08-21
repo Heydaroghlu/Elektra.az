@@ -1,0 +1,6 @@
+@OCPP.API_HostAddress = http://localhost:5077
+
+GET {{OCPP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
