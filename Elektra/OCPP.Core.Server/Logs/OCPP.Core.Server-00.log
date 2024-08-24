@@ -10885,3 +10885,19 @@ trce: OCPPMiddleware[0] @ 2024-08-07T01:19:26.1061371+04:00
       OCPPMiddleware => Websocket request: Path='/OCPP/Test1234'
 info: OCPPMiddleware[0] @ 2024-08-07T01:19:26.1062127+04:00
       OCPPMiddleware => Connection request with chargepoint identifier = 'Test1234'
+trce: OCPP.Core.Server.Startup[0] @ 2024-08-21T21:09:17.1843760+04:00
+      Startup => Configure(...)
+warn: Microsoft.AspNetCore.Server.Kestrel[0] @ 2024-08-21T21:09:20.5787910+04:00
+      Overriding address(es) 'http://localhost:8081'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+trce: OCPPMiddleware[0] @ 2024-08-21T21:09:21.1083830+04:00
+      OCPPMiddleware => Websocket request: Path='/weatherforecast'
+warn: OCPPMiddleware[0] @ 2024-08-21T21:09:21.1084890+04:00
+      OCPPMiddleware => Bad path request
+trce: OCPPMiddleware[0] @ 2024-08-21T21:09:27.5919850+04:00
+      OCPPMiddleware => Websocket request: Path='/'
+trce: OCPPMiddleware[0] @ 2024-08-21T21:09:27.5937630+04:00
+      OCPPMiddleware => Index status page
+trce: OCPPMiddleware[0] @ 2024-08-21T21:09:27.6188110+04:00
+      OCPPMiddleware => Websocket request: Path='/favicon.ico'
+warn: OCPPMiddleware[0] @ 2024-08-21T21:09:27.6189160+04:00
+      OCPPMiddleware => Bad path request

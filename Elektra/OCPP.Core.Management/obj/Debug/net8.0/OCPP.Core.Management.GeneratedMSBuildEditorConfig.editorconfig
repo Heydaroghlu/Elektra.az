@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OCPP.Core.Management
 build_property.RootNamespace = OCPP.Core.Management
-build_property.ProjectDir = C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Management\
+build_property.ProjectDir = /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Isa\Desktop\almabaku\Elektra.az2\Elektra\OCPP.Core.Management
+build_property.MSBuildProjectDirectory = /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ChargePointDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyZ2VQb2ludERldGFpbC5jc2h0bWw=
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ChargePointDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGFyZ2VQb2ludERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ChargePointList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyZ2VQb2ludExpc3QuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ChargePointList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGFyZ2VQb2ludExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ChargeReport.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyZ2VSZXBvcnQuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ChargeReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGFyZ2VSZXBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ChargeTagDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyZ2VUYWdEZXRhaWwuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ChargeTagDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGFyZ2VUYWdEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ChargeTagList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyZ2VUYWdMaXN0LmNzaHRtbA==
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ChargeTagList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGFyZ2VUYWdMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ConnectorDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25uZWN0b3JEZXRhaWwuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ConnectorDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25uZWN0b3JEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/ConnectorList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25uZWN0b3JMaXN0LmNzaHRtbA==
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/ConnectorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25uZWN0b3JMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Home/Transactions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFuc2FjdGlvbnMuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Home/Transactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UcmFuc2FjdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Management/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Management/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

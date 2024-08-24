@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -16,54 +17,66 @@ namespace OCPP.Core.Infrastructure.Services.Payment
     public class PaymentService
     {
         private IUnitOfWork _unitOfWork;
-        private readonly HttpClient _httpClient;
-        public PaymentService(IUnitOfWork unitOfWork, HttpClient httpClient)
+        private readonly HttpClient _client;
+        public PaymentService(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
-            _httpClient = httpClient;
+            _client = new HttpClient();
         }
-        public async Task<string> Request(string Url, string json,string method)
+        public async Task<string> RequestAsync(string url, string json,string method,string? token=null)
         {
-            StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            // HttpClient kullanarak POST isteği gönderme
-            using (HttpClient client = new HttpClient())
+            try
             {
-                HttpResponseMessage response = await client.PostAsync(Url, content);
+                StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+            
+                HttpResponseMessage response = null;
+            
+                switch (method.ToUpper())
+                {
+                    case "POST":
+                        _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                        response = await _client.PostAsync(url, content);
+                        break;
+
+                    case "PUT":
+                        response = await _client.PutAsync(url, content);
+                        break;
+                    default:
+                        throw new ArgumentException("Unsupported HTTP method");
+                }
+
                 if (response.IsSuccessStatusCode)
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                   return ("Başarılı! Gelen cevap: " + responseBody);
+                    return responseBody;
                 }
                 else
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
-                   return ("Başarısız! Durum kodu: " + response.StatusCode);
+                    return response.StatusCode+ responseBody;
                 }
+            }
+            catch (Exception ex)
+            {
+                return "Hata: " + ex.Message;
             }
         }
         public async Task<string> Auth(PaymentLoginDTO paymentLogin)
         {
-            //var url =await _unitOfWork.RepositoryPaymentSetting.GetAsync(x => x.Key == "Auth");
             string url = "https://test-vpos.unitedpayment.az/api/auth/";
             string json = JsonConvert.SerializeObject(paymentLogin);
-            var result =await Request(url, json, "POST");
+            var result =await RequestAsync(url, json, "POST");
+            var jsonDoc = JsonDocument.Parse(result);
+            if (jsonDoc.RootElement.TryGetProperty("token", out JsonElement tokenElement))
+            {
+                return tokenElement.GetString(); // Token'ı string olarak döndür
+            }
+            else
+            {
+                return "Token bulunamadı";
+            }
             return result;
         }
-        /*public async Task<HttpResponseMessage> Checkout(CheckoutDTO checkout,string authToken)
-        {
-            string url = "https://test-vpos.unitedpayment.az/api/transactions/checkout";
-            string jsonContent = JsonSerializer.Serialize(checkout);
-            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
-            // Add the x-auth-token to the headers
-            _httpClient.DefaultRequestHeaders.Add("x-auth-token", authToken);
-
-            // Send the POST request
-            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
-
-            return response;
-        }*/
 
         
     }

@@ -9,6 +9,7 @@ using OCPP.Core.Application.UnitOfWorks;
 using OCPP.Core.Database;
 using OCPP.Core.Persistence.Services.OCPPCall;
 using System;
+using Microsoft.AspNetCore.SignalR;
 
 namespace OCPP.API.Controllers
 {
@@ -244,7 +245,7 @@ namespace OCPP.API.Controllers
             {
                 return NotFound("Url is not exist");
             }
-
+            
             CallService<CpReservDTO> call = new CallService<CpReservDTO>();
             var result =await call.Get(url.Value);
             string data = result.Content.ReadAsStringAsync().Result;
@@ -288,6 +289,8 @@ namespace OCPP.API.Controllers
 
 
         }
+
+      
 
 
     }
