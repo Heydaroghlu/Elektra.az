@@ -124,13 +124,12 @@ namespace OCPP.Core.Server
             msgOut.JsonPayload = jsonResetRequest;
             msgOut.TaskCompletionSource = new TaskCompletionSource<string>();
 
-            // store HttpContext with MsgId for later answer processing (=> send anwer to API caller)
             _requestQueue.Add(msgOut.UniqueId, msgOut);
 
-            // Send OCPP message with optional logging/dump
+            
             await SendOcpp16Message(msgOut, logger, chargePointStatus.WebSocket);
 
-            // Wait for asynchronous chargepoint response and processing
+            // Cihazdan cavab
             string apiResult = await msgOut.TaskCompletionSource.Task;
 
             // 
@@ -138,7 +137,7 @@ namespace OCPP.Core.Server
             apiCallerContext.Response.ContentType = "application/json";
             await apiCallerContext.Response.WriteAsync(apiResult);
         }
-        private async Task RemoteStartTransaction16(ChargeStartDTO chargeStart, ChargePointStatus chargePointStatus, HttpContext apiCallerContext, OCPPCoreContext dbContext)
+        private async Task<HttpResponse> RemoteStartTransaction16(ChargeStartDTO chargeStart, ChargePointStatus chargePointStatus, HttpContext apiCallerContext, OCPPCoreContext dbContext)
         {
             ILogger logger = _logFactory.CreateLogger("OCPPMiddleware.OCPP16");
 
@@ -146,10 +145,12 @@ namespace OCPP.Core.Server
             Messages_OCPP16.RemoteStartTransactionRequest startTransactionRequest = new Messages_OCPP16.RemoteStartTransactionRequest();
             startTransactionRequest.ConnectorId = chargeStart.ConnectorId;
             startTransactionRequest.IdTag = chargeStart.UserId;
+            
             startTransactionRequest.ChargingProfile= new ChargingProfile();
             startTransactionRequest.ChargingProfile.ChargingProfileId = chargeStart.ConnectorId;
             startTransactionRequest.ChargingProfile.StackLevel = 0;
             startTransactionRequest.ChargingProfile.StackLevel = 0;
+            //startTransactionRequest.ChargingProfile.ChargingSchedule.ChargingRateUnit = chargeStart.PreAuth.CardUid;
             startTransactionRequest.ChargingProfile.ChargingProfilePurpose = "TxProfile"; // Örnek amaç
             startTransactionRequest.ChargingProfile.ChargingProfileKind = "Absolute"; // Örnek tür
 
@@ -180,19 +181,13 @@ namespace OCPP.Core.Server
             // Wait for asynchronous chargepoint response and processing
             string apiResult = await msgOut.TaskCompletionSource.Task;
 
-            // 
+           
             apiCallerContext.Response.StatusCode = 200;
             apiCallerContext.Response.ContentType = "application/json";
             await apiCallerContext.Response.WriteAsync(apiResult);
-            if(chargeStart.EndTime!=null && chargeStart.EndTime !=0)
-            {
-                var timer = new System.Threading.Timer(async (e) =>
-                {
-                    //await RemoteStopTransaction16(chargeStart, chargePointStatus);
-                }, null, TimeSpan.FromMinutes(chargeStart.EndTime?? 0), Timeout.InfiniteTimeSpan);
-            }
+            return apiCallerContext.Response;
         }
-        private async Task RemoteStopTransaction16(ChargeStopDTO chargeStop,  ChargePointStatus chargePointStatus, HttpContext apiCallerContext, OCPPCoreContext dbContext)
+        private async Task<HttpResponse> RemoteStopTransaction16(ChargeStopDTO chargeStop,  ChargePointStatus chargePointStatus, HttpContext apiCallerContext, OCPPCoreContext dbContext)
         {
             ILogger logger = _logFactory.CreateLogger("OCPPMiddleware.OCPP16");
 
@@ -203,7 +198,16 @@ namespace OCPP.Core.Server
                 IdTag=chargeStop.IdTag,
                 Reason= "EVDisconnected",
             };
-
+            logger.LogInformation($"StopTransaction isa-TransactionId-: {chargeStop.TransactionId}");
+            var transaction = dbContext.Transactions.FirstOrDefault(x => x.TransactionId == chargeStop.TransactionId);
+            if (transaction != null)
+            {
+                var log = dbContext.MessageLogs.Where(x =>
+                    x.ChargePointId == transaction.ChargePointId &&
+                    x.ConnectorId == transaction.ConnectorId && x.Message == "MeterValues").OrderByDescending(x=>x.LogId).FirstOrDefault();
+                transaction.EndMessage = log.Result;
+            }
+            
             // JSON formatına serileştirme
             string jsonStopRequest = JsonConvert.SerializeObject(stopTransactionRequest);
 
@@ -234,16 +238,9 @@ namespace OCPP.Core.Server
                 apiCallerContext.Response.StatusCode = 200;
                 apiCallerContext.Response.ContentType = "application/json";
                 await apiCallerContext.Response.WriteAsync(apiResult);
+                return apiCallerContext.Response;
             }
-
-            // Optional: Veritabanı işlemleri yapma
-            if (dbContext != null)
-            {
-                // Örnek: Transaction kayıtlarını güncellemek veya eklemek için dbContext kullanılabilir
-                // var transaction = await dbContext.Transactions.FindAsync(transactionId);
-                // transaction.Status = "Stopped";
-                // await dbContext.SaveChangesAsync();
-            }
+            return apiCallerContext.Response;
         }
         /// <summary>
         /// Sends a Unlock-Request to the chargepoint
@@ -310,7 +307,7 @@ namespace OCPP.Core.Server
                 ocppTextMessage = string.Format("[{0},\"{1}\",\"{2}\",\"{3}\",{4}]", "4", string.Empty, Messages_OCPP16.ErrorCodes.ProtocolError, string.Empty, "{}");
             }
 
-            string dumpDir = _configuration.GetValue<string>("MessageDumpDir");
+            /*string dumpDir = _configuration.GetValue<string>("MessageDumpDir");
             if (!string.IsNullOrWhiteSpace(dumpDir))
             {
                 // Write outgoing message into dump directory
@@ -323,7 +320,7 @@ namespace OCPP.Core.Server
                 {
                     logger.LogError(exp, "OCPPMiddleware.SendOcpp16Message=> Error dumping message to path: '{0}'", path);
                 }
-            }
+            }*/
 
             byte[] binaryMessage = UTF8Encoding.UTF8.GetBytes(ocppTextMessage);
             await webSocket.SendAsync(new ArraySegment<byte>(binaryMessage, 0, binaryMessage.Length), WebSocketMessageType.Text, true, CancellationToken.None);

@@ -10930,3 +10930,125 @@ trce: OCPPMiddleware[0] @ 2024-08-11T01:47:20.3351989+04:00
       OCPPMiddleware => Websocket request: Path='/API/RemoteStartTransaction/Mr12'
 warn: OCPPMiddleware[0] @ 2024-08-11T01:47:20.3356943+04:00
       OCPPMiddleware => Failure: Wrong X-API-Key! Caller='(null)'
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:58.2501980+04:00
+      OCPPMiddleware.Receive16 => OCPP-Message: Type=2 / ID=bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0 / Action=StatusNotification
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.2515140+04:00
+      Processing status notification...
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.2515900+04:00
+      DeserializeMessage => Using schema file: /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/Schema16/StatusNotificationRequest.json
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.2575840+04:00
+      StatusNotification => Message deserialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.2578500+04:00
+      MessageLog => Writing entry 'StatusNotification'
+info: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.5352940+04:00
+      StatusNotification => ChargePoint=Mr12 / Connector=1 / newStatus=Available
+info: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.8390350+04:00
+      UpdateConnectorStatus => Save ConnectorStatus: ID=Mr12 / Connector=1 / Status=Available / Meter=(null)
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:58.8408680+04:00
+      StatusNotification => Response serialized
+trce: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:58.8409470+04:00
+      OCPPMiddleware.OCPP16 => SendOcppMessage: [3,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0",{}]
+fail: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:58.8428380+04:00
+      OCPPMiddleware.SendOcpp16Message=> Error dumping message to path: 'c:\temp\OCPP/2024-09-03_18-28-58-8410_ocpp16-out.txt'
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/c:\temp\OCPP/2024-09-03_18-28-58-8410_ocpp16-out.txt'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OCPP.Core.Server.OCPPMiddleware.SendOcpp16Message(OCPPMessage msg, ILogger logger, WebSocket webSocket) in /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/OCPPMiddleware.OCPP16.cs:line 320
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:29:17.6488650+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: 
+warn: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:29:17.6490600+04:00
+      OCPPMiddleware.Receive16 => Error in RegEx-Matching: Msg=
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:29:17.6512180+04:00
+      OCPPMiddleware.Receive16 => WebSocket closed: State=CloseReceived / CloseStatus=EndpointUnavailable
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:48.7981350+04:00
+      OCPPMiddleware => Websocket request: Path='/OCPP/Test1234'
+info: OCPPMiddleware[0] @ 2024-09-03T18:30:48.7982360+04:00
+      OCPPMiddleware => Connection request with chargepoint identifier = 'Test1234'
+warn: OCPPMiddleware[0] @ 2024-09-03T18:30:49.0986580+04:00
+      OCPPMiddleware => FAILURE: Found no chargepoint with identifier=Test1234
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:49.0986800+04:00
+      OCPPMiddleware => no chargepoint: http 412
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:53.0886910+04:00
+      OCPPMiddleware => Websocket request: Path='/OCPP/Test1234'
+info: OCPPMiddleware[0] @ 2024-09-03T18:30:53.0889030+04:00
+      OCPPMiddleware => Connection request with chargepoint identifier = 'Test1234'
+warn: OCPPMiddleware[0] @ 2024-09-03T18:30:53.3567840+04:00
+      OCPPMiddleware => FAILURE: Found no chargepoint with identifier=Test1234
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:53.3568080+04:00
+      OCPPMiddleware => no chargepoint: http 412
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:55.9341220+04:00
+      OCPPMiddleware => Websocket request: Path='/OCPP/Test1234'
+info: OCPPMiddleware[0] @ 2024-09-03T18:30:55.9342430+04:00
+      OCPPMiddleware => Connection request with chargepoint identifier = 'Test1234'
+warn: OCPPMiddleware[0] @ 2024-09-03T18:30:56.2029040+04:00
+      OCPPMiddleware => FAILURE: Found no chargepoint with identifier=Test1234
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:56.2029760+04:00
+      OCPPMiddleware => no chargepoint: http 412
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:57.3851350+04:00
+      OCPPMiddleware => Websocket request: Path='/OCPP/Mr12'
+info: OCPPMiddleware[0] @ 2024-09-03T18:30:57.3853080+04:00
+      OCPPMiddleware => Connection request with chargepoint identifier = 'Mr12'
+info: OCPPMiddleware[0] @ 2024-09-03T18:30:57.6623590+04:00
+      OCPPMiddleware => SUCCESS: Found chargepoint with identifier=Mr12
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:57.6632890+04:00
+      OCPPMiddleware => Store/Update status object
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:57.6633010+04:00
+      OCPPMiddleware => Waiting for message...
+trce: OCPPMiddleware[0] @ 2024-09-03T18:30:57.6664230+04:00
+      OCPPMiddleware => WebSocket connection with charge point 'Mr12'
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:30:57.6778750+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: [2,"cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd","BootNotification",{"chargePointVendor":"AVT-Company","chargePointModel":"AVT-Express","chargePointSerialNumber":"avt.001.13.1","chargeBoxSerialNumber":"avt.001.13.1.01","firmwareVersion":"0.9.87","iccid":"","imsi":"","meterType":"AVT NQC-ACDC","meterSerialNumber":"avt.001.13.1.01"}]
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:30:57.6780410+04:00
+      OCPPMiddleware.Receive16 => OCPP-Message: Type=2 / ID=cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd / Action=BootNotification
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:30:57.6780530+04:00
+      Processing boot notification...
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:30:57.6783230+04:00
+      DeserializeMessage => Using schema file: /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/Schema16/BootNotificationRequest.json
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:30:57.6801400+04:00
+      BootNotification => Message deserialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:30:57.6804130+04:00
+      BootNotification => Response serialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:30:57.6807870+04:00
+      MessageLog => Writing entry 'BootNotification'
+trce: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:30:57.9644520+04:00
+      OCPPMiddleware.OCPP16 => SendOcppMessage: [3,"cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd",{"status":"Accepted","currentTime":"2024-09-03T14:30:57.680165+00:00","interval":300}]
+fail: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:30:57.9664110+04:00
+      OCPPMiddleware.SendOcpp16Message=> Error dumping message to path: 'c:\temp\OCPP/2024-09-03_18-30-57-9645_ocpp16-out.txt'
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/c:\temp\OCPP/2024-09-03_18-30-57-9645_ocpp16-out.txt'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OCPP.Core.Server.OCPPMiddleware.SendOcpp16Message(OCPPMessage msg, ILogger logger, WebSocket webSocket) in /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/OCPPMiddleware.OCPP16.cs:line 320
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:31:04.4239050+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: [2,"cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd","StartTransaction",{"connectorId":1,"idTag":"B4A63CDF","timestamp":"2024-09-03T14:31:04Z","meterStart":0,"reservationId":0}]
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:31:04.4243200+04:00
+      OCPPMiddleware.Receive16 => OCPP-Message: Type=2 / ID=cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd / Action=StartTransaction
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:04.4304060+04:00
+      Processing startTransaction request...
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:04.4308670+04:00
+      DeserializeMessage => Using schema file: /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/Schema16/StartTransactionRequest.json
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:04.4414420+04:00
+      StartTransaction => Message deserialized
+info: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:04.7715500+04:00
+      StartTransaction => Charge tag='B4A63CDF' => Status: Accepted
+info: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:05.3260320+04:00
+      UpdateConnectorStatus => Save ConnectorStatus: ID=Mr12 / Connector=1 / Status=Occupied / Meter=0
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:05.6340100+04:00
+      StartTransaction => Response serialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:31:05.6342280+04:00
+      MessageLog => Writing entry 'StartTransaction'
+trce: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:31:05.9099920+04:00
+      OCPPMiddleware.OCPP16 => SendOcppMessage: [3,"cBHquuExZXalnY1QXsMyzE4PbT6xm0XTruTd",{"idTagInfo":{"expiryDate":"2025-05-31T00:00:00+04:00","parentIdTag":"B4A63CD2","status":"Accepted"},"transactionId":245}]
+trce: OCPP.Core.Server.Startup[0] @ 2024-09-03T18:52:05.6026870+04:00
+      Startup => Configure(...)
+trce: OCPP.Core.Server.Startup[0] @ 2024-09-04T11:21:32.9235210+04:00
+      Startup => Configure(...)
+warn: Microsoft.AspNetCore.Server.Kestrel[0] @ 2024-09-04T11:21:36.3810900+04:00
+      Overriding address(es) 'http://localhost:8081'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+trce: OCPPMiddleware[0] @ 2024-09-04T11:21:36.9191720+04:00
+      OCPPMiddleware => Websocket request: Path='/weatherforecast'

@@ -16,5 +16,8 @@ namespace OCPP.Core.Database
         public DateTime OTPTimer { get; set; }
         public string ImgUrl { get; set; }
         public bool IsBlocked { get; set; }
+        public int Type { get; set; }
+        public DateTime RegisteredTime { get; set; }
+        public ChargeTag ChargeTag { get; set; }
     }
 }

@@ -10,7 +10,6 @@
     <Folder Include="Helper\" />
     <Folder Include="Services\Email\" />
     <Folder Include="Services\Slug\" />
-    <Folder Include="Services\Token\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\OCPP.Core.Application.csproj" />
+    <ProjectReference Include="..\OCPP.Core.Persistence\OCPP.Core.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "yMiqj2pmWBu3kLkFDyU9y66O6byGd272zIfovMd5624=",
+  "Hash": "9KCjfGSYttK18sndLSU0E9qFaReJB0vE86BHvQbFEE0=",
   "Source": "OCPP.API",
   "BasePath": "_content/OCPP.API",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "OCPP.API/wwwroot",
+      "Source": "OCPP.API",
+      "ContentRoot": "/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.API/wwwroot/",
+      "BasePath": "_content/OCPP.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.API/wwwroot/js/index.html",
+      "SourceId": "OCPP.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.API/wwwroot/",
+      "BasePath": "_content/OCPP.API",
+      "RelativePath": "js/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.html"
+    }
+  ]
 }

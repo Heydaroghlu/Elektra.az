@@ -13,7 +13,7 @@ namespace OCPP.Core.Application.DTOs.PaymentDTOs
         public string ClientOrderId { get; set; }
 
         [JsonPropertyName("amount")]
-        public int Amount { get; set; }
+        public double Amount { get; set; }
 
         [JsonPropertyName("language")]
         public string Language { get; set; }

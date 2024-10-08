@@ -80,7 +80,6 @@ namespace OCPP.Core.Server
                         }
 
                         Logger.LogInformation("StopTransaction => RFID-tag='{0}' => Status: {1}", idTag, stopTransactionResponse.IdTagInfo.Status);
-
                     }
                     catch (Exception exp)
                     {
@@ -101,7 +100,7 @@ namespace OCPP.Core.Server
                             if (transaction.ConnectorId > 0)
                             {
                                 // Update meter value in db connector status 
-                                UpdateConnectorStatus(transaction.ConnectorId, null, null, (double)stopTransactionRequest.MeterStop / 1000, stopTransactionRequest.Timestamp);
+                                UpdateConnectorStatus(transaction.ConnectorId, "Available", null, (double)stopTransactionRequest.MeterStop / 1000, stopTransactionRequest.Timestamp);
                             }
 
                             // check current tag against start tag
@@ -109,7 +108,7 @@ namespace OCPP.Core.Server
                             if (transaction.StartTag == ct)
                             {
                                 // tags are different => same group?
-                                ChargeTag startTag = DbContext.Find<ChargeTag>(transaction.StartTag);
+                                ChargeTag startTag = DbContext.Find<ChargeTag>(transaction.StartTag.TagId);
                                 if (startTag != null)
                                 {
                                     if (!string.Equals(startTag.ParentTagId, stopTransactionResponse.IdTagInfo.ParentIdTag, StringComparison.InvariantCultureIgnoreCase))
@@ -130,11 +129,15 @@ namespace OCPP.Core.Server
                                 }
                             }
 
-                            if (valid)
+                            if (valid || !valid)
                             {
+                                var log = DbContext.MessageLogs.Where(x =>
+                                    x.ChargePointId == transaction.ChargePointId &&
+                                    x.ConnectorId == transaction.ConnectorId && x.Message == "MeterValues").OrderByDescending(x=>x.LogId).FirstOrDefault();
                                 transaction.StopTag = ct;
                                 transaction.MeterStop =  (double)stopTransactionRequest.MeterStop / 1000; // Meter value here is always Wh
                                 transaction.StopReason = stopTransactionRequest.Reason.ToString();
+                                transaction.EndMessage = log.Result;
                                 transaction.StopTime = stopTransactionRequest.Timestamp.UtcDateTime.AddHours(4);
                                 DbContext.SaveChanges();
                             }

@@ -26,5 +26,15 @@ namespace OCPP.Core.Application.DTOs.PaymentDTOs
 
         [JsonProperty("declineUrl")]
         public string DeclineUrl { get; set; }
+
+        public Preauth(string memberId,string language,string successUrl,string cancelUrl,string declineUrl,double amount)
+        {
+            this.MemberId = memberId;
+            this.Language = language;
+            this.SuccessUrl = successUrl;
+            this.CancelUrl = cancelUrl;
+            this.DeclineUrl = declineUrl;
+            this.Amount = amount;
+        }
     }
 }

@@ -282,7 +282,7 @@ namespace OCPP.Core.Server
                     {
                         // API-Key does NOT matches => authentication failure!!!
                         _logger.LogWarning("OCPPMiddleware => Failure: Wrong X-API-Key! Caller='{0}'", apiKeyCaller);
-                        context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+                        //context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
                         //return;
                     }
                 }
@@ -383,14 +383,17 @@ namespace OCPP.Core.Server
                                         // OCPP V2.0
 
                                         await RemoteStartTransaction16(chargeStart,status, context, dbContext);
+                                        context.Response.StatusCode=(int)HttpStatusCode.Accepted;
+
                                     }
                                     else
                                     {
                                         // OCPP V1.6
                                         await RemoteStartTransaction16(chargeStart,status, context, dbContext);
+                                        context.Response.StatusCode=(int)HttpStatusCode.Accepted;
                                     }
                                 }
-                                else
+                                else   
                                 {
                                     // Chargepoint offline
                                     _logger.LogError("OCPPMiddleware StartTransaction => Chargepoint offline: {0}", urlChargePointId);
@@ -429,11 +432,13 @@ namespace OCPP.Core.Server
                                     {
                                         // OCPP V2.0
                                         await RemoteStopTransaction16(chargeStop, status, context, dbContext);
+                                        context.Response.StatusCode = (int)HttpStatusCode.Accepted;
                                     }
                                     else
                                     {
                                         // OCPP V1.6
-                                        await RemoteStopTransaction16(chargeStop, status, context, dbContext);
+                                          await RemoteStopTransaction16(chargeStop, status, context, dbContext);
+                                          context.Response.StatusCode = (int)HttpStatusCode.Accepted;
                                     }
                                 }
                                 else
@@ -441,6 +446,7 @@ namespace OCPP.Core.Server
                                     // Chargepoint offline
                                     _logger.LogError("OCPPMiddleware SoftReset => Chargepoint offline: {0}", urlChargePointId);
                                     context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                                    
                                 }
                             }
                             catch (Exception exp)

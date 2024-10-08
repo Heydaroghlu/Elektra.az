@@ -398,3 +398,4 @@ C:/Users/Isa/Desktop/almabaku/Elektra.az2/Elektra/OCPP.Core.Server/obj/Debug/net
 /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/obj/Debug/net8.0/OCPP.Core.Server.pdb
 /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/obj/Debug/net8.0/OCPP.Core.Server.genruntimeconfig.cache
 /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/obj/Debug/net8.0/ref/OCPP.Core.Server.dll
+/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/System.Net.WebSockets.WebSocketProtocol.dll

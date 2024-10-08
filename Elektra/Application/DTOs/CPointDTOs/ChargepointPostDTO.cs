@@ -17,11 +17,8 @@ namespace OCPP.Core.Application.DTOs.CPointDTOs
         public string Username { get; set; }
         public string Password { get; set; }
         public string ClientCertThumb { get; set; }
-        public int PowerKw { get; set; }
-        public double PriceForKw { get; set; }
-        public double PriceForHour { get; set; }
-        public double PriceForReserv { get; set; }
-        public List<int> ConnectorId { get; set; }
+        public int TarifId { get; set; }
+        //public List<int> ConnectorId { get; set; }
         public List<CpImageDTO> CpImages { get; set; }
     }
 }

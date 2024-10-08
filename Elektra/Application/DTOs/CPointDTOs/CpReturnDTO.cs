@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OCPP.Core.Application.DTOs.TarifDTOs;
+using OCPP.Core.Database;
 
 namespace OCPP.Core.Application.DTOs.CPointDTOs
 {
@@ -13,10 +15,7 @@ namespace OCPP.Core.Application.DTOs.CPointDTOs
         public string ChargePointId { get; set; }
         public string Name { get; set; }
         public string Comment { get; set; }
-        public int PowerKw { get; set; }
-        public decimal PriceForKw { get; set; }
-        public decimal PriceForHour { get; set; }
-        public decimal PriceForReserv { get; set; }
+        public TarinfReturnDTO Tarif { get; set; }
         public LocationReturnDTO Location { get; set; }
         public List<ConnectorDTO> ConnectorStatus { get; set; }
         public List<CpImageDTO> CpImages { get; set; } 

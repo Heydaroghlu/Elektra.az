@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace OCPP.Core.Application.DTOs.PaymentDTOs
 {
-    public sealed partial class PreauthCompletion
+    public  class PreauthCompletion
     {
         [JsonProperty("transactionId")]
         public int TransactionId { get; set; }
 
         [JsonProperty("amount")]
-        public int Amount { get; set; }
+        public double Amount { get; set; }
 
         [JsonProperty("memberId")]
         public string MemberId { get; set; }

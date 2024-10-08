@@ -14,5 +14,8 @@ namespace OCPP.Core.Application.DTOs.UserDTOs
         public string Email { get; set; }
         public string ImgUrl { get; set; }
         public decimal Balance { get; set; }
+        public TagReturnDTO ChargeTag { get; set; }
+        public DateTime RegisteredTime { get; set; }
+
     }
 }

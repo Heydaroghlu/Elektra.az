@@ -32,8 +32,10 @@ namespace OCPP.Core.Database
         public DateTime? LastStatusTime { get; set; }
         public double? LastMeter { get; set; }
         public DateTime? LastMeterTime { get; set; }
+        public string Type { get; set; }
         public string ReservUser {  get; set; }
         public int ReservMinute { get; set; }
+        public DateTime? ReservStart { get; set; }
         public DateTime? ReservTime { get; set; }
         public virtual ChargePoint ChargePoint { get; set; }
 

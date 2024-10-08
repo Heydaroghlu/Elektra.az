@@ -26,5 +26,19 @@ namespace OCPP.API.Controllers
             await _unitOfWork.CommitAsync();
             return Ok();
         }
+
+        [HttpPut("Update")]
+        public async Task<IActionResult> Update(KeyValueDTO keyValueDto)
+        {
+            var exist = await _unitOfWork.RepositoryUrl.GetAsync(x => x.Key == keyValueDto.Key);
+            if (exist == null)
+            {
+                return NotFound();
+            }
+
+            exist.Value = keyValueDto.Value;
+            await _unitOfWork.CommitAsync();
+            return Ok();
+        }
     }
 }

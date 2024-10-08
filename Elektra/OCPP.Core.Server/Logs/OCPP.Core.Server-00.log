@@ -10901,3 +10901,105 @@ trce: OCPPMiddleware[0] @ 2024-08-21T21:09:27.6188110+04:00
       OCPPMiddleware => Websocket request: Path='/favicon.ico'
 warn: OCPPMiddleware[0] @ 2024-08-21T21:09:27.6189160+04:00
       OCPPMiddleware => Bad path request
+trce: OCPP.Core.Server.Startup[0] @ 2024-09-03T18:28:25.8968400+04:00
+      Startup => Configure(...)
+warn: Microsoft.AspNetCore.Server.Kestrel[0] @ 2024-09-03T18:28:29.6281840+04:00
+      Overriding address(es) 'http://localhost:8081'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:30.0515200+04:00
+      OCPPMiddleware => Websocket request: Path='/weatherforecast'
+warn: OCPPMiddleware[0] @ 2024-09-03T18:28:30.0516790+04:00
+      OCPPMiddleware => Bad path request
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:33.1747750+04:00
+      OCPPMiddleware => Websocket request: Path='/'
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:33.1751090+04:00
+      OCPPMiddleware => Index status page
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:33.2712200+04:00
+      OCPPMiddleware => Websocket request: Path='/favicon.ico'
+warn: OCPPMiddleware[0] @ 2024-09-03T18:28:33.2713900+04:00
+      OCPPMiddleware => Bad path request
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:44.0906400+04:00
+      OCPPMiddleware => Websocket request: Path='/OCPP/Mr12'
+info: OCPPMiddleware[0] @ 2024-09-03T18:28:44.0909620+04:00
+      OCPPMiddleware => Connection request with chargepoint identifier = 'Mr12'
+info: OCPPMiddleware[0] @ 2024-09-03T18:28:44.6805900+04:00
+      OCPPMiddleware => SUCCESS: Found chargepoint with identifier=Mr12
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:44.6816180+04:00
+      OCPPMiddleware => Store/Update status object
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:44.6816360+04:00
+      OCPPMiddleware => Waiting for message...
+trce: OCPPMiddleware[0] @ 2024-09-03T18:28:44.6829890+04:00
+      OCPPMiddleware => WebSocket connection with charge point 'Mr12'
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:44.6881160+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: [2,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0","BootNotification",{"chargePointVendor":"AVT-Company","chargePointModel":"AVT-Express","chargePointSerialNumber":"avt.001.13.1","chargeBoxSerialNumber":"avt.001.13.1.01","firmwareVersion":"0.9.87","iccid":"","imsi":"","meterType":"AVT NQC-ACDC","meterSerialNumber":"avt.001.13.1.01"}]
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:44.6899680+04:00
+      OCPPMiddleware.Receive16 => OCPP-Message: Type=2 / ID=bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0 / Action=BootNotification
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:44.6909640+04:00
+      Processing boot notification...
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:44.6944540+04:00
+      DeserializeMessage => Using schema file: /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/Schema16/BootNotificationRequest.json
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:44.7743060+04:00
+      BootNotification => Message deserialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:44.7877290+04:00
+      BootNotification => Response serialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:44.8107350+04:00
+      MessageLog => Writing entry 'BootNotification'
+trce: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:45.1519340+04:00
+      OCPPMiddleware.OCPP16 => SendOcppMessage: [3,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0",{"status":"Accepted","currentTime":"2024-09-03T14:28:44.774394+00:00","interval":300}]
+fail: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:45.1637770+04:00
+      OCPPMiddleware.SendOcpp16Message=> Error dumping message to path: 'c:\temp\OCPP/2024-09-03_18-28-45-1520_ocpp16-out.txt'
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/c:\temp\OCPP/2024-09-03_18-28-45-1520_ocpp16-out.txt'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OCPP.Core.Server.OCPPMiddleware.SendOcpp16Message(OCPPMessage msg, ILogger logger, WebSocket webSocket) in /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/OCPPMiddleware.OCPP16.cs:line 320
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:56.5805970+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: [2,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0","MeterValues",{"connectorId":1,"meterValue":[{"timestamp":"2024-09-03T14:28:56Z","sampledValue":[{"value":"100","measurand":"Energy.Active.Import.Register"},{"value":"800","measurand":"Power.Active.Import"},{"value":"23","measurand":"SoC"}]}]}]
+info: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:56.5810610+04:00
+      OCPPMiddleware.Receive16 => OCPP-Message: Type=2 / ID=bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0 / Action=MeterValues
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.5877830+04:00
+      Processing meter values...
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.5881910+04:00
+      DeserializeMessage => Using schema file: /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/bin/Debug/net8.0/Schema16/MeterValuesRequest.json
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6304190+04:00
+      isameter{"connectorId":1,"meterValue":[{"timestamp":"2024-09-03T14:28:56Z","sampledValue":[{"value":"100","measurand":"Energy.Active.Import.Register"},{"value":"800","measurand":"Power.Active.Import"},{"value":"23","measurand":"SoC"}]}]}
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6305290+04:00
+      isa Connector1
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6305330+04:00
+      MeterValues => Message deserialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6310130+04:00
+      MeterValues => Context=(null) / Format=(null) / Value=100 / Unit=(null) / Location=(null) / Measurand=Energy_Active_Import_Register / Phase=(null)
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6315890+04:00
+      MeterValues => Value: '100.0' Wh
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6317210+04:00
+      MeterValues => Context=(null) / Format=(null) / Value=800 / Unit=(null) / Location=(null) / Measurand=Power_Active_Import / Phase=(null)
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6317370+04:00
+      MeterValues => Charging '800.0' W
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6317480+04:00
+      MeterValues => Context=(null) / Format=(null) / Value=23 / Unit=(null) / Location=(null) / Measurand=SoC / Phase=(null)
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.6317970+04:00
+      MeterValues => SoC: '23.0'%
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:56.9320390+04:00
+      UpdateConnectorStatus => Creating new DB-ConnectorStatus: ID=Mr12 / Connector=1
+info: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:57.2377470+04:00
+      UpdateConnectorStatus => Save ConnectorStatus: ID=Mr12 / Connector=1 / Status=(null) / Meter=0.1
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:57.2380840+04:00
+      MeterValues => Set OnlineConnectorStatus for ChargePoint=Mr12 / Connector=1 / Values: Meter (kWh): 0,1 | Charge (kW): 0,8 | SoC (%): 23
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:57.2383450+04:00
+      MeterValues => Response serialized
+trce: OCPP.Core.Server.ControllerOCPP16[0] @ 2024-09-03T18:28:57.2389340+04:00
+      MessageLog => Writing entry 'MeterValues'
+trce: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:57.5692620+04:00
+      OCPPMiddleware.OCPP16 => SendOcppMessage: [3,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0",{}]
+fail: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:57.5707790+04:00
+      OCPPMiddleware.SendOcpp16Message=> Error dumping message to path: 'c:\temp\OCPP/2024-09-03_18-28-57-5694_ocpp16-out.txt'
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/c:\temp\OCPP/2024-09-03_18-28-57-5694_ocpp16-out.txt'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at OCPP.Core.Server.OCPPMiddleware.SendOcpp16Message(OCPPMessage msg, ILogger logger, WebSocket webSocket) in /Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Server/OCPPMiddleware.OCPP16.cs:line 320
+dbug: OCPPMiddleware.OCPP16[0] @ 2024-09-03T18:28:58.2501210+04:00
+      OCPPMiddleware.Receive16 => Raw OCPP Message: [2,"bdDsmLzweNE0VXLUCl2UMis1QUE92pLv3KR0","StatusNotification",{"connectorId":1,"status":"Available","errorCode":"NoError","info":"","timestamp":"2024-09-03T14:28:58Z","vendorId":"","vendorErrorCode":""}]

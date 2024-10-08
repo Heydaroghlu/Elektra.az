@@ -7,23 +7,34 @@ using OCPP.Core.Application.UnitOfWorks;
 using OCPP.Core.Database;
 using OCPP.Core.Persistence.UnitOfWorks;
 using System.Data;
+using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using OCPP.Core.Application.Abstractions;
 using OCPP.Core.Infrastructure.Hubs;
 using OCPP.Core.Infrastructure.Services.HangFireService;
+using OCPP.Core.Infrastructure.Services.Token;
 
 var builder = WebApplication.CreateBuilder(args);
  
 builder.Services.AddSignalR();
+builder.Services.AddHttpClient(); // HttpClient hizmetini ekleyin
 
-// Add services to the container.
 builder.Services.AddHangfire(configuration =>
 {
-    configuration.UseSqlServerStorage(builder.Configuration.GetConnectionString("SqlServer")); // SQL Server için
+    configuration.UseSqlServerStorage(builder.Configuration.GetConnectionString("SqlServer"));
 });
-builder.Services.AddHangfireServer(); 
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+var mapperConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new MapperProfile());
+});
+IMapper mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddHangfireServer(); 
 builder.Services.AddScoped<StoredProcedureService>();
 builder.Services.AddControllers()
     .AddNewtonsoftJson(options =>
@@ -53,17 +64,26 @@ builder.Services.AddCors(options =>
             .AllowCredentials()
             .SetIsOriginAllowed((hosts) => true));
 });
-var mapperConfig = new MapperConfiguration(mc =>
-{
-    mc.AddProfile(new MapperProfile());
-});
 
-IMapper mapper = mapperConfig.CreateMapper();
-builder.Services.AddSingleton(mapper);
-
+builder.Services.AddScoped<ITokenHandler, OCPP.Core.Infrastructure.Services.Token.TokenHandler>();
+builder.Services.AddAuthentication("Elektra")
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateAudience = true,
+            ValidateIssuer = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidAudience = builder.Configuration["Token:Audience"],
+            ValidIssuer = builder.Configuration["Token:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+        };
+    });
 var app = builder.Build();
 app.UseCors("CorsPolicy");
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseHttpsRedirection();
 app.UseSwagger();
@@ -77,6 +97,9 @@ var service = scope.ServiceProvider.GetRequiredService<StoredProcedureService>()
 RecurringJob.AddOrUpdate(
     "execute-sql-command",
     () => service.ExecuteStoredProcedure(),
-    "*/10 * * * * *"); // Cron ifadesi: Her 10 saniyede bir
-
+    "*/10 * * * * *"); 
+RecurringJob.AddOrUpdate(
+    "execute-sql-command2",
+    () => service.TransactionProcesses(),
+    "*/10 * * * * *"); 
 app.Run();

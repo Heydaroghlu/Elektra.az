@@ -13,6 +13,8 @@ namespace OCPP.Core.Application.DTOs.CPointDTOs
         public int ConnectorId { get; set; }
         public string LastStatus { get; set; }
         public int ReservMinute { get; set; }
+        public string Type { get; set; }
+        public string ReservUser {  get; set; }
         public DateTime? ReservTime { get; set; }
     }
 }

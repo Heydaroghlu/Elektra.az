@@ -21,7 +21,7 @@ namespace OCPP.API.Controllers
         [HttpGet("Get")]
         public async Task<IActionResult> Get(string UserId)
         {
-            var data=_unitOfWork.RepositoryWishlist.GetAllAsync(x=>x.AppUserId== UserId,false, "ChargePoint.Location");  
+            var data=_unitOfWork.RepositoryWishlist.GetAllAsync(x=>x.AppUserId== UserId,false,"ChargePoint.CpImages","ChargePoint.Location");  
             List<WishListDTO> wishList=_mapper.Map<List<WishListDTO>>(data);
             return Ok(wishList);
         }

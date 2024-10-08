@@ -12,6 +12,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OCPP.Core.Application.DTOs.PaymentDTOs;
+using OCPP.Core.Application.DTOs.ReservDTOs;
+using OCPP.Core.Application.DTOs.TarifDTOs;
+using OCPP.Core.Application.DTOs.TransactionDTOs;
+using OCPP.Core.Application.DTOs.VersionDTOs;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OCPP.Core.Application.Profiles
@@ -37,6 +42,22 @@ namespace OCPP.Core.Application.Profiles
             CreateMap<ConnectorStatus, ReservsDTO>();
             CreateMap<Transaction, TransactionDTO>();
             CreateMap<ConnectorStatus,ConnectorDTO>();
+            CreateMap<AppUser, UserUpDTO>();
+            CreateMap<Transaction, TransactionPostDTO>();
+            CreateMap<ConnectorLog, ReservPostDTO>();
+            CreateMap<Transaction, TransactionPostDTO>();
+            CreateMap<ConnectorLog, ReservPostDTO>();
+            CreateMap<PaymentStatusDTO, PaymentStatus>();
+            CreateMap<PaymentStatus, PaymentStatusReturnDTO>();
+            CreateMap<AppUser, UserReturnDTO>();
+            CreateMap<PaymentLogDTO, PaymentLog>();
+            CreateMap<PaymentLog, PaymentLogReturnDTO>();
+            CreateMap<TarifPostDTO, Tarif>();
+            CreateMap<Tarif, TarinfReturnDTO>();
+            CreateMap<ChargeTag, ChargeTagReturnDTO>();
+            CreateMap<Transaction, TransactionDTO>();
+            CreateMap<ChargeTag, TagReturnDTO>();
+            CreateMap<VersionPostDTO, VersionHistory>();
         }
     }
 }

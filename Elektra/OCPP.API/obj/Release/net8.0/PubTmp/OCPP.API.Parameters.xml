@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="express2-001-site1" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Isa\\Desktop\\almabaku\\Elektra\.az2\\Elektra\\OCPP\.API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/isaheydaroghlu/Elektra\.az/Elektra/OCPP\.API/bin/Release/net8\.0/publish/$" />
   </parameter>
 </parameters>

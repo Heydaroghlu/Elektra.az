@@ -19,6 +19,7 @@
 
 using System;
 using System.IO;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -47,7 +48,11 @@ namespace OCPP.Core.Database
         public DbSet<PaymentSetting> PaymentSettings { get; set; }
         public DbSet<ConnectorLog> ConnectorLogs { get; set; }
         public DbSet<UrlData> Urls { get; set; }
-
+        public DbSet<PaymentStatus> PaymentStatus { get; set; }
+        public DbSet<PaymentLog> PaymentLogs { get; set; }
+        public DbSet<Tarif> Tarifs { get; set; }
+        public DbSet<UserUid> UserUids { get; set; }
+        public DbSet<VersionHistory> VersionHistories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AppUser>(entity =>
@@ -149,9 +154,27 @@ namespace OCPP.Core.Database
             OnModelCreatingPartial(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
-
+        
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
+    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<OCPPCoreContext>
+    {
+        public OCPPCoreContext CreateDbContext(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Bağlantı dizesini alın
+            var connectionString =
+                "Data Source=SQL5108.site4now.net;Initial Catalog=db_a9f58a_admin;User Id=db_a9f58a_admin_admin;Password=Admin0910";
+
+            // DbContextOptionsBuilder'ı yapılandırın
+            var optionsBuilder = new DbContextOptionsBuilder<OCPPCoreContext>();
+            optionsBuilder.UseSqlServer(connectionString); // Bağlantı dizesini ekleyin
+
+            return new OCPPCoreContext(optionsBuilder.Options);
+        }
+    }
+
 
 
 }

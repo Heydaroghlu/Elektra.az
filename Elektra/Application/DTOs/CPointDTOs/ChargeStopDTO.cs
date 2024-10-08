@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OCPP.Core.Application.DTOs.PaymentDTOs;
 
 namespace OCPP.Core.Application.DTOs.CPointDTOs
 {

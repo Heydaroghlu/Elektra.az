@@ -21,6 +21,18 @@ namespace OCPP.API.Controllers
         [HttpPost("Create")]
         public async Task<IActionResult> Create(LocationPostDTO postDTO)
         {
+            ChargePoint exist =
+                await _unitOfWork.RepositoryChargePoint.GetAsync(x => x.ChargePointId == postDTO.ChargePointId);
+            if (exist == null)
+            {
+                return BadRequest("Chargepoint is not exist");
+            }
+            ChargeLocation existLoc =
+                await _unitOfWork.RepositoryChargeLocations.GetAsync(x => x.ChargePointId==postDTO.ChargePointId && x.Deleted == false);
+            if (existLoc!=null)
+            {
+                return BadRequest("Locations is  exist");
+            }
             ChargeLocation chargeLocation = _mapper.Map<ChargeLocation>(postDTO);
             await _unitOfWork.RepositoryChargeLocations.InsertAsync(chargeLocation);
             await _unitOfWork.CommitAsync();
@@ -53,7 +65,7 @@ namespace OCPP.API.Controllers
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
         {
-            var data =_unitOfWork.RepositoryChargeLocations.GetAllAsync(x=>x.Deleted==false,false, "ChargePoint");
+            var data =_unitOfWork.RepositoryChargeLocations.GetAllAsync(x=>x.Deleted==false,false, "ChargePoint.Tarif");
             List<LocationForMapDTO> locations= _mapper.Map<List<LocationForMapDTO>>(data);
             foreach (LocationForMapDTO location in locations)
             {
@@ -69,6 +81,21 @@ namespace OCPP.API.Controllers
             }
             return Ok(locations);
         }
+
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> Delete(string ChargePointId)
+        {
+            ChargeLocation exist = await _unitOfWork.RepositoryChargeLocations.GetAsync(x => x.ChargePointId == ChargePointId);
+            if (exist == null)
+            {
+                return NotFound();
+            }
+
+            exist.Deleted = true;
+            await _unitOfWork.CommitAsync();
+            return Ok();
+        }
+        
         
     }
 }

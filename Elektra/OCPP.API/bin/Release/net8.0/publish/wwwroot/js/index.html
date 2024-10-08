@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignalR Client</title>
+    <!-- SignalR kütüphanesini yükleyin -->
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@7.0.8/dist/browser/signalr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            try {
+                const connection = new signalR.HubConnectionBuilder()
+                    .withUrl("http://localhost:7114/statushub") // Hub URL'inizi buraya girin
+                    .configureLogging(signalR.LogLevel.Information) // Log seviyesini ayarlayın (isteğe bağlı)
+                    .build();
+
+                connection.on("ReceiveStatus", function (status) {
+                    console.log("Sunucudan gelen mesaj:", status);
+                    displayStatus(status);
+                });
+
+                connection.start().then(function () {
+                    console.log("SignalR bağlantısı kuruldu.");
+                    // Sunucuya veri gönderme (isteğe bağlı)
+                    // connection.invoke("SendStatus", "someChargePointId");
+                }).catch(function (err) {
+                    console.error("SignalR bağlantı hatası:", err);
+                });
+
+                function displayStatus(status) {
+                    const statusContainer = document.getElementById('status-container');
+                    statusContainer.innerHTML = ''; // Önceki verileri temizleyin
+                    if (Array.isArray(status)) {
+                        status.forEach(item => {
+                            const statusElement = document.createElement('div');
+                            statusElement.textContent = `ChargePointId: ${item.chargePointId}, Status: ${item.status}`;
+                            statusContainer.appendChild(statusElement);
+                        });
+                    } else {
+                        statusContainer.textContent = 'Veri bulunamadı.';
+                    }
+                }
+            } catch (err) {
+                console.error("SignalR bağlantı hatası:", err);
+            }
+        });
+    </script>
+</head>
+<body>
+<h1>SignalR Client</h1>
+<div id="status-container">
+    <!-- Sunucudan gelen veriler burada gösterilecektir -->
+</div>
+</body>
+</html>

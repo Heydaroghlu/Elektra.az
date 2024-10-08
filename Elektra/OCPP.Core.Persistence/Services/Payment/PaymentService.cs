@@ -10,9 +10,10 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Application.Enums;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace OCPP.Core.Infrastructure.Services.Payment
+namespace OCPP.Core.Persistence.Services.Payment
 {
     public class PaymentService
     {
@@ -37,7 +38,6 @@ namespace OCPP.Core.Infrastructure.Services.Payment
                         _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
                         response = await _client.PostAsync(url, content);
                         break;
-
                     case "PUT":
                         response = await _client.PutAsync(url, content);
                         break;
@@ -52,18 +52,17 @@ namespace OCPP.Core.Infrastructure.Services.Payment
                 }
                 else
                 {
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    return response.StatusCode+ responseBody;
+                    return "Hata710" + response;
                 }
             }
             catch (Exception ex)
             {
-                return "Hata: " + ex.Message;
+                return "Hata710: " + ex.Message;
             }
         }
         public async Task<string> Auth(PaymentLoginDTO paymentLogin)
         {
-            string url = "https://test-vpos.unitedpayment.az/api/auth/";
+            string url = "https://vpos.unitedpayment.az/api/auth/";
             string json = JsonConvert.SerializeObject(paymentLogin);
             var result =await RequestAsync(url, json, "POST");
             var jsonDoc = JsonDocument.Parse(result);
@@ -73,7 +72,7 @@ namespace OCPP.Core.Infrastructure.Services.Payment
             }
             else
             {
-                return "Token bulunamadı";
+                return "Token is notfound";
             }
             return result;
         }

@@ -31,6 +31,11 @@ namespace OCPP.Core.Persistence.UnitOfWorks
             RepositoryMessageLog=new Repository<MessageLog>(_context);
             RepositoryChargeTag= new Repository<ChargeTag>(_context);
             RepositoryTransaction=new Repository<Transaction>(_context);
+            RepositoryPaymentStatus = new Repository<PaymentStatus>(_context);
+            RepositoryPaymentLog = new Repository<PaymentLog>(_context);
+            RepositoryTarif = new Repository<Tarif>(_context);
+            RepositoryUserUid = new Repository<UserUid>(_context);
+            RepositoryVersionHistory = new Repository<VersionHistory>(_context);
         }
 
         public IRepository<AppUser> RepositoryUser { get; set; }
@@ -47,6 +52,13 @@ namespace OCPP.Core.Persistence.UnitOfWorks
 
         public IRepository<ChargeTag> RepositoryChargeTag { get; set; }
         public IRepository<Transaction> RepositoryTransaction { get; set; }
+        public IRepository<PaymentStatus> RepositoryPaymentStatus { get; set; }
+        public IRepository<PaymentLog> RepositoryPaymentLog { get; set; }
+        public IRepository<Tarif> RepositoryTarif { get; set; }
+
+        public IRepository<UserUid> RepositoryUserUid { get; set; }
+        public IRepository<VersionHistory> RepositoryVersionHistory { get; set; }
+
 
 
 

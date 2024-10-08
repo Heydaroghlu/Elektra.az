@@ -120,6 +120,14 @@
               "target": "Package",
               "version": "[1.8.14, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -217,6 +225,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -263,6 +279,9 @@
             "projectReferences": {
               "/Users/isaheydaroghlu/Elektra.az/Elektra/Application/OCPP.Core.Application.csproj": {
                 "projectPath": "/Users/isaheydaroghlu/Elektra.az/Elektra/Application/OCPP.Core.Application.csproj"
+              },
+              "/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Persistence/OCPP.Core.Persistence.csproj": {
+                "projectPath": "/Users/isaheydaroghlu/Elektra.az/Elektra/OCPP.Core.Persistence/OCPP.Core.Persistence.csproj"
               }
             }
           }

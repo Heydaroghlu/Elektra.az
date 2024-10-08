@@ -24,6 +24,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using OCPP.Core.Application.DTOs.CPointDTOs;
 using OCPP.Core.Database;
 using OCPP.Core.Server.Messages_OCPP16;
 
@@ -122,6 +123,7 @@ namespace OCPP.Core.Server
                         Transaction transaction = new Transaction();
                         transaction.ChargePointId = ChargePointStatus?.Id;
                         transaction.ConnectorId = startTransactionRequest.ConnectorId;
+                        transaction.CardUID = startTransactionRequest.ReservationId;
                         transaction.StartTag = ct;
                         transaction.StartTime = startTransactionRequest.Timestamp.UtcDateTime.AddHours(4);
                         transaction.MeterStart = (double)startTransactionRequest.MeterStart / 1000; // Meter value here is always Wh

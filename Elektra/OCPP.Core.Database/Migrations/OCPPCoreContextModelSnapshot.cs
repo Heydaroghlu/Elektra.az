@@ -218,11 +218,17 @@ namespace OCPP.Core.Database.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<DateTime>("RegisteredTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
@@ -298,23 +304,16 @@ namespace OCPP.Core.Database.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<int>("PowerKw")
+                    b.Property<int>("TarifId")
                         .HasColumnType("int");
-
-                    b.Property<decimal>("PriceForHour")
-                        .HasColumnType("decimal(18, 2)");
-
-                    b.Property<decimal>("PriceForKw")
-                        .HasColumnType("decimal(18, 2)");
-
-                    b.Property<decimal>("PriceForReserv")
-                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("Username")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("ChargePointId");
+
+                    b.HasIndex("TarifId");
 
                     b.HasIndex(new[] { "ChargePointId" }, "ChargePoint_Identifier")
                         .IsUnique();
@@ -345,10 +344,15 @@ namespace OCPP.Core.Database.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
+                    b.Property<bool>("WithBalance")
+                        .HasColumnType("bit");
+
                     b.HasKey("TagId")
                         .HasName("PK_ChargeKeys");
 
-                    b.HasIndex("AppUserId");
+                    b.HasIndex("AppUserId")
+                        .IsUnique()
+                        .HasFilter("[AppUserId] IS NOT NULL");
 
                     b.ToTable("ChargeTags");
                 });
@@ -423,10 +427,16 @@ namespace OCPP.Core.Database.Migrations
                     b.Property<int>("ReservMinute")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("ReservStart")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime?>("ReservTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ReservUser")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Type")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ChargePointId", "ConnectorId");
@@ -499,6 +509,48 @@ namespace OCPP.Core.Database.Migrations
                     b.ToTable("MessageLog", (string)null);
                 });
 
+            modelBuilder.Entity("OCPP.Core.Database.PaymentLog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ApiType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("End")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TransactionId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TransactionType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("PaymentLogs");
+                });
+
             modelBuilder.Entity("OCPP.Core.Database.PaymentSetting", b =>
                 {
                     b.Property<int>("Id")
@@ -521,6 +573,77 @@ namespace OCPP.Core.Database.Migrations
                     b.ToTable("PaymentSettings");
                 });
 
+            modelBuilder.Entity("OCPP.Core.Database.PaymentStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MemberId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OrderId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PaymentStatus");
+                });
+
+            modelBuilder.Entity("OCPP.Core.Database.Tarif", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PowerKw")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("PriceForHour")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<decimal>("PriceForKw")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<decimal?>("PriceForReserv")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<decimal?>("PriceForReserv2")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<decimal>("PriceForStartSeans")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<decimal>("PriceForStartSession")
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<bool>("Reserv")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tarifs");
+                });
+
             modelBuilder.Entity("OCPP.Core.Database.Transaction", b =>
                 {
                     b.Property<int>("TransactionId")
@@ -529,6 +652,9 @@ namespace OCPP.Core.Database.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransactionId"));
 
+                    b.Property<int>("CardUID")
+                        .HasColumnType("int");
+
                     b.Property<string>("ChargePointId")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -536,6 +662,15 @@ namespace OCPP.Core.Database.Migrations
 
                     b.Property<int>("ConnectorId")
                         .HasColumnType("int");
+
+                    b.Property<string>("EndMessage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EndPercent")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsPayment")
+                        .HasColumnType("bit");
 
                     b.Property<double>("MeterStart")
                         .HasColumnType("float");
@@ -562,6 +697,12 @@ namespace OCPP.Core.Database.Migrations
 
                     b.Property<DateTime?>("StopTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("TextMessage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("TotalAmount")
+                        .HasColumnType("float");
 
                     b.Property<string>("Uid")
                         .HasMaxLength(50)
@@ -598,6 +739,55 @@ namespace OCPP.Core.Database.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Urls");
+                });
+
+            modelBuilder.Entity("OCPP.Core.Database.UserUid", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CardUid")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Deleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("Selected")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("UserUids");
+                });
+
+            modelBuilder.Entity("OCPP.Core.Database.VersionHistory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsCritic")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Version")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("VersionHistories");
                 });
 
             modelBuilder.Entity("OCPP.Core.Database.Wishlist", b =>
@@ -686,11 +876,22 @@ namespace OCPP.Core.Database.Migrations
                     b.Navigation("ChargePoint");
                 });
 
+            modelBuilder.Entity("OCPP.Core.Database.ChargePoint", b =>
+                {
+                    b.HasOne("OCPP.Core.Database.Tarif", "Tarif")
+                        .WithMany()
+                        .HasForeignKey("TarifId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Tarif");
+                });
+
             modelBuilder.Entity("OCPP.Core.Database.ChargeTag", b =>
                 {
                     b.HasOne("OCPP.Core.Database.AppUser", "AppUser")
-                        .WithMany()
-                        .HasForeignKey("AppUserId");
+                        .WithOne("ChargeTag")
+                        .HasForeignKey("OCPP.Core.Database.ChargeTag", "AppUserId");
 
                     b.Navigation("AppUser");
                 });
@@ -730,6 +931,15 @@ namespace OCPP.Core.Database.Migrations
                     b.Navigation("ChargePoint");
                 });
 
+            modelBuilder.Entity("OCPP.Core.Database.PaymentLog", b =>
+                {
+                    b.HasOne("OCPP.Core.Database.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("OCPP.Core.Database.Transaction", b =>
                 {
                     b.HasOne("OCPP.Core.Database.ChargePoint", "ChargePoint")
@@ -753,6 +963,15 @@ namespace OCPP.Core.Database.Migrations
                     b.Navigation("StopTag");
                 });
 
+            modelBuilder.Entity("OCPP.Core.Database.UserUid", b =>
+                {
+                    b.HasOne("OCPP.Core.Database.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("OCPP.Core.Database.Wishlist", b =>
                 {
                     b.HasOne("OCPP.Core.Database.AppUser", "AppUser")
@@ -766,6 +985,11 @@ namespace OCPP.Core.Database.Migrations
                     b.Navigation("AppUser");
 
                     b.Navigation("ChargePoint");
+                });
+
+            modelBuilder.Entity("OCPP.Core.Database.AppUser", b =>
+                {
+                    b.Navigation("ChargeTag");
                 });
 
             modelBuilder.Entity("OCPP.Core.Database.ChargePoint", b =>

@@ -33,6 +33,7 @@ namespace OCPP.Core.Database
         public AppUser AppUser { get; set; }    
         public DateTime? ExpiryDate { get; set; }
         public bool? Blocked { get; set; }
+        public bool WithBalance { get; set; }
 
         public override string ToString()
         {

@@ -25,7 +25,11 @@ namespace OCPP.Core.Application.UnitOfWorks
         public IRepository<MessageLog> RepositoryMessageLog { get; set; } 
         public IRepository<ChargeTag> RepositoryChargeTag { get; set; }
         public IRepository<Transaction> RepositoryTransaction { get; set; }
-
+        public IRepository<PaymentStatus> RepositoryPaymentStatus { get; set; }
+        public IRepository<PaymentLog> RepositoryPaymentLog { get; set; }
+        public IRepository<Tarif> RepositoryTarif { get; set; }
+        public IRepository<UserUid> RepositoryUserUid { get; set; }
+        public IRepository<VersionHistory> RepositoryVersionHistory { get; set; }
         Task<int> CommitAsync();
         void Commit();
     }

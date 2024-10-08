@@ -13,7 +13,9 @@ namespace OCPP.Core.Application.DTOs.CStatusDTOs
         public int ConnectorId { get; set; }
         public string LastStatus { get; set; }
         public int ReservMinute { get; set; }
+        public string ReservUser { get; set; }
+        public CpReturnDTO ChargePoint { get; set; }
+        public DateTime? ReservStart { get; set; }
         public DateTime? ReservTime { get; set; }
-        public CpReturnDTO ChargePoint { get; set; } 
     }
 }

@@ -38,14 +38,9 @@ namespace OCPP.Core.Database
         public string Username { get; set; }
         public string Password { get; set; }
         public string ClientCertThumb { get; set; }
+        public int TarifId { get; set; }
+        public Tarif Tarif { get; set; }
         public bool IsDeleted { get; set; }
-        public int PowerKw { get;set; }
-        [Column(TypeName = "decimal(18, 2)")]
-        public double PriceForKw { get; set; }
-        [Column(TypeName = "decimal(18, 2)")]
-        public double PriceForHour { get; set; }
-        [Column(TypeName = "decimal(18, 2)")]
-        public double PriceForReserv { get; set; }
         public ChargeLocation Location { get; set; }
         public List<CpImage> CpImages { get; set; }   
         public List<ConnectorStatus> ConnectorStatus { get; set; }
