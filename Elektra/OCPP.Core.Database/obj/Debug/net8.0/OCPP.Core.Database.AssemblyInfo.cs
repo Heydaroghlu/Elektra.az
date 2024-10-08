@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dallmann consulting GmbH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.3.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.2+2db32385c77f57526cd3a97a3d806f685831516a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.3.2+f49bee947107bcfc193bcd1d16cd98c9c0a261c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OCPP.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OCPP.Core.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.3.2.0")]

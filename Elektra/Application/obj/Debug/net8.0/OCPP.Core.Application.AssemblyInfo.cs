@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OCPP.Core.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2db32385c77f57526cd3a97a3d806f685831516a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f49bee947107bcfc193bcd1d16cd98c9c0a261c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OCPP.Core.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OCPP.Core.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
